@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "day": 1,
+    "date_label": "6/7",
+    "phase": "Foundation",
+    "level": "B1+",
+    "estimated_minutes": 18,
+    "exam_focus": [
+      "TOEFL",
+      "IELTS",
+      "Daily Speaking"
+    ],
+    "theme": "Workplace Introductions and Study Planning",
+    "weekday_plan": "Speaking - independent speaking"
+  },
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "approach",
+      "type": "n./v.",
+      "phonetic_us": "/əˈproʊtʃ/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "方法；處理；接近",
+      "example": "A structured approach can help students improve their English more efficiently.",
+      "collocation": "a practical approach; a structured approach",
+      "usage_note_tw": "常用於說明解決問題或學習的方法。"
+    },
+    {
+      "id": 2,
+      "word": "consistent",
+      "type": "adj.",
+      "phonetic_us": "/kənˈsɪstənt/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "持續的；一致的",
+      "example": "Consistent practice is more effective than occasional long study sessions.",
+      "collocation": "consistent effort; consistent results",
+      "usage_note_tw": "強調長期穩定，而非偶爾衝刺。"
+    },
+    {
+      "id": 3,
+      "word": "fluency",
+      "type": "n.",
+      "phonetic_us": "/ˈfluːənsi/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "流暢度；流利",
+      "example": "Daily speaking practice can gradually build fluency.",
+      "collocation": "build fluency; improve fluency",
+      "usage_note_tw": "口說備考核心詞，常與 build / improve 搭配。"
+    },
+    {
+      "id": 4,
+      "word": "feedback",
+      "type": "n.",
+      "phonetic_us": "/ˈfiːdbæk/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "回饋；意見",
+      "example": "Receiving feedback from a teacher helps learners correct mistakes quickly.",
+      "collocation": "receive feedback; give constructive feedback",
+      "usage_note_tw": "職場與學習情境皆高頻。"
+    },
+    {
+      "id": 5,
+      "word": "efficient",
+      "type": "adj.",
+      "phonetic_us": "/ɪˈfɪʃənt/",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "有效率的",
+      "example": "An efficient study plan saves time without reducing quality.",
+      "collocation": "efficient method; time-efficient",
+      "usage_note_tw": "可形容人、方法或系統。"
+    },
+    {
+      "id": 6,
+      "word": "limited",
+      "type": "adj.",
+      "phonetic_us": "/ˈlɪmɪtɪd/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "有限的",
+      "example": "Many adult learners have limited time for daily practice.",
+      "collocation": "limited time; limited resources",
+      "usage_note_tw": "學術閱讀常見，用於描述資源或時間限制。"
+    },
+    {
+      "id": 7,
+      "word": "pronunciation",
+      "type": "n.",
+      "phonetic_us": "/prəˌnʌnsiˈeɪʃən/",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "發音",
+      "example": "Shadowing exercises can improve pronunciation and listening speed.",
+      "collocation": "clear pronunciation; improve pronunciation",
+      "usage_note_tw": "IELTS / TOEFL 口說評分相關詞彙。"
+    },
+    {
+      "id": 8,
+      "word": "shadowing",
+      "type": "n.",
+      "phonetic_us": "/ˈʃædoʊɪŋ/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "跟讀練習",
+      "example": "Shadowing spoken sentences helps learners notice linking and stress patterns.",
+      "collocation": "shadowing practice; sentence shadowing",
+      "usage_note_tw": "語言學習專用術語，指模仿母語者朗讀。"
+    },
+    {
+      "id": 9,
+      "word": "introduce",
+      "type": "v.",
+      "phonetic_us": "/ˌɪntrəˈduːs/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "介紹；引進",
+      "example": "Let me introduce myself and explain my study goals.",
+      "collocation": "introduce yourself; introduce a topic",
+      "usage_note_tw": "職場自我介紹必備動詞。"
+    },
+    {
+      "id": 10,
+      "word": "schedule",
+      "type": "n./v.",
+      "phonetic_us": "/ˈskedʒuːl/",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "行程；安排",
+      "example": "I schedule twenty minutes of English practice every morning.",
+      "collocation": "busy schedule; schedule a meeting",
+      "usage_note_tw": "日常與商務皆極高頻。"
+    },
+    {
+      "id": 11,
+      "word": "progress",
+      "type": "n.",
+      "phonetic_us": "/ˈprɑːɡres/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "進步；進展",
+      "example": "Small daily actions can lead to noticeable progress over time.",
+      "collocation": "make progress; track progress",
+      "usage_note_tw": "學習與工作場景通用。"
+    },
+    {
+      "id": 12,
+      "word": "flexible",
+      "type": "adj.",
+      "phonetic_us": "/ˈfleksəbl/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "有彈性的；靈活的",
+      "example": "Online learning is flexible enough for busy working adults.",
+      "collocation": "flexible schedule; flexible approach",
+      "usage_note_tw": "描述時間或方法的彈性。"
+    },
+    {
+      "id": 13,
+      "word": "review",
+      "type": "v./n.",
+      "phonetic_us": "/rɪˈvjuː/",
+      "category": "TOEFL",
+      "status": "review",
+      "definition_tw": "複習；檢視",
+      "example": "I review new vocabulary every evening before bed.",
+      "collocation": "review notes; weekly review",
+      "usage_note_tw": "學習循環中的複習動作，本日為複習詞。"
+    },
+    {
+      "id": 14,
+      "word": "goal",
+      "type": "n.",
+      "phonetic_us": "/ɡoʊl/",
+      "category": "Daily",
+      "status": "review",
+      "definition_tw": "目標",
+      "example": "My goal is to reach TOEFL 80 within sixty days.",
+      "collocation": "set a goal; achieve a goal",
+      "usage_note_tw": "日常與備考規劃皆常用，本日為複習詞。"
+    },
+    {
+      "id": 15,
+      "word": "practice",
+      "type": "n./v.",
+      "phonetic_us": "/ˈpræktɪs/",
+      "category": "IELTS",
+      "status": "review",
+      "definition_tw": "練習",
+      "example": "Regular practice matters more than perfect conditions.",
+      "collocation": "daily practice; speaking practice",
+      "usage_note_tw": "各項技能訓練的核心詞，本日為複習詞。"
+    }
+  ],
+  "grammar_focus": {
+    "title": "Using 'One reason is that...' to Extend an Answer",
+    "function": "用來延展 TOEFL independent speaking 或 IELTS Speaking 的理由。",
+    "explanation_tw": "當你表達意見後，可以用 One reason is that... 加上具體原因，避免回答太短。",
+    "pattern": "In my opinion, S + V. One reason is that S + V.",
+    "example_basic": "In my opinion, online learning is useful. One reason is that it is flexible.",
+    "example_advanced": "In my opinion, online learning is highly practical. One reason is that it allows busy adults to review lessons at their own pace."
+  },
+  "reading": {
+    "title": "A Practical Approach to English Learning",
+    "text": "English learners often need a practical approach when preparing for international exams. Many adults have limited time, so they must focus on activities that produce clear results. For example, reading short academic passages can build vocabulary, while shadowing spoken sentences can improve pronunciation and listening speed. A learner may also record a short response every day to develop fluency. This method does not require long study hours, but it does require consistency. Teachers frequently emphasize that receiving feedback helps students correct mistakes before they become habits. An efficient schedule might include fifteen minutes of review, ten minutes of reading, and five minutes of speaking practice. When learners introduce themselves in English, they also practice high-frequency phrases used in workplace and campus settings. A flexible plan allows busy professionals to study during commutes or short breaks without feeling overwhelmed. Over time, small daily actions can lead to noticeable progress in reading, listening, speaking, and writing. Students who set a clear goal and track their progress are more likely to stay motivated throughout a sixty-day preparation cycle.",
+    "embedded_words": [
+      "approach",
+      "limited",
+      "shadowing",
+      "fluency",
+      "consistent",
+      "progress",
+      "feedback",
+      "efficient",
+      "schedule",
+      "flexible"
+    ],
+    "translation_tw": "準備國際英語考試時，英文學習者通常需要一個實用的方法。許多成人時間有限，因此必須專注於能產生明確成果的活動。例如，閱讀短篇學術文章可以建立字彙，而跟讀口語句子可以改善發音與聽力速度。學習者也可以每天錄製一段短回答來培養流暢度。這個方法不需要很長的學習時間，但需要持續性。教師常強調，獲得回饋有助學生在錯誤變成習慣前加以修正。一份有效率的行程可能包含十五分鐘複習、十分鐘閱讀與五分鐘口說練習。當學習者用英文自我介紹時，也同時練習職場與校園情境的高頻片語。有彈性的計畫讓忙碌的專業人士能在通勤或短暫空檔學習而不至於不堪負荷。隨著時間累積，每天的小行動能在閱讀、聽力、口說與寫作方面帶來明顯進步。設定清楚目標並追蹤進度的學生，較能在六十天的準備週期內保持動力。"
+  },
+  "listening_speaking": [
+    {
+      "id": 1,
+      "sentence": "English learners often need a practical approach when preparing for international exams.",
+      "pronunciation_tips_tw": "注意 need a 的連音，可自然連成 /niːdə/；practical approach 中 practical 重音在第一音節。",
+      "shadowing_steps_tw": "先聽一次，再逐句跟讀，最後不看文字朗讀一次。",
+      "focus": "linking"
+    },
+    {
+      "id": 2,
+      "sentence": "Shadowing spoken sentences can improve pronunciation and listening speed.",
+      "pronunciation_tips_tw": "spoken sentences 中 s 與 s 會連接；and listening 的 and 常弱讀為 /ən/。",
+      "shadowing_steps_tw": "先慢速跟讀兩遍，再加速至正常語速，注意重音落在 improve 與 pronunciation。",
+      "focus": "reduction"
+    },
+    {
+      "id": 3,
+      "sentence": "Over time, small daily actions can lead to noticeable progress in reading, listening, speaking, and writing.",
+      "pronunciation_tips_tw": "Over time 語調略上升；and writing 前 and 弱讀，整句尾音下降表示句子結束。",
+      "shadowing_steps_tw": "分段練習：前半至 noticeable progress，後半列出四項技能，最後整句連貫朗讀。",
+      "focus": "intonation"
+    }
+  ],
+  "toefl_skill_drill": {
+    "skill_type": "independent_speaking",
+    "instruction_tw": "請用 45 秒回答問題，練習 opinion + reason + example + result 的結構。",
+    "prompt": "Do you prefer studying English alone or with a teacher? Why?",
+    "response_framework": "I prefer ___. One reason is that ___. For example, ___. As a result, ___.",
+    "sample_answer": "I prefer studying English with a teacher because I can receive immediate feedback. For example, when I make grammar or pronunciation mistakes, a teacher can correct me right away. As a result, I can improve faster and avoid repeating the same errors.",
+    "useful_phrases": [
+      "receive immediate feedback",
+      "correct mistakes",
+      "improve faster"
+    ]
+  },
+  "daily_quiz": [
+    {
+      "question_id": 1,
+      "question": "Which word is closest in meaning to 'approach' in the reading?",
+      "options": [
+        "A. Problem",
+        "B. Method",
+        "C. Result",
+        "D. Mistake"
+      ],
+      "answer": "B",
+      "explanation_tw": "文中 a practical approach 指的是「實用的方法」，因此最接近 method。"
+    },
+    {
+      "question_id": 2,
+      "question": "According to the passage, what is required for this learning method to work?",
+      "options": [
+        "A. Long study hours every day",
+        "B. Consistency",
+        "C. A private tutor",
+        "D. Expensive materials"
+      ],
+      "answer": "B",
+      "explanation_tw": "文中明確提到 it does require consistency，而非長時間學習。"
+    },
+    {
+      "question_id": 3,
+      "question": "Which sentence correctly uses the grammar pattern from today?",
+      "options": [
+        "A. I like English. Because it is useful.",
+        "B. In my opinion, practice helps. One reason is that it builds fluency.",
+        "C. English is hard but I try.",
+        "D. Practice is good and fun."
+      ],
+      "answer": "B",
+      "explanation_tw": "選項 B 正確運用 In my opinion... One reason is that... 的句型結構。"
+    }
+  ],
+  "gmail_email": {
+    "recipient": "gish1040403@gmail.com",
+    "subject": "Day 1 英文學習｜Workplace Introductions and Study Planning",
+    "html_body": "<h1>Day 1 英文學習</h1><p><strong>今日主題：</strong>Workplace Introductions and Study Planning</p><p><strong>階段：</strong>Foundation · <strong>程度：</strong>B1+ · <strong>預估：</strong>18 分鐘</p><p><strong>今日訓練：</strong>Speaking - independent speaking</p><hr><h2>今日單字</h2><table border='1' cellpadding='6' cellspacing='0' style='border-collapse:collapse;width:100%'><tr><th>單字</th><th>音標</th><th>解釋</th><th>狀態</th></tr><tr><td><strong>approach</strong></td><td>/əˈproʊtʃ/</td><td>方法；處理；接近</td><td>新詞</td></tr><tr><td><strong>consistent</strong></td><td>/kənˈsɪstənt/</td><td>持續的；一致的</td><td>新詞</td></tr><tr><td><strong>fluency</strong></td><td>/ˈfluːənsi/</td><td>流暢度；流利</td><td>新詞</td></tr><tr><td><strong>feedback</strong></td><td>/ˈfiːdbæk/</td><td>回饋；意見</td><td>新詞</td></tr><tr><td><strong>efficient</strong></td><td>/ɪˈfɪʃənt/</td><td>有效率的</td><td>新詞</td></tr><tr><td><strong>limited</strong></td><td>/ˈlɪmɪtɪd/</td><td>有限的</td><td>新詞</td></tr><tr><td><strong>pronunciation</strong></td><td>/prəˌnʌnsiˈeɪʃən/</td><td>發音</td><td>新詞</td></tr><tr><td><strong>shadowing</strong></td><td>/ˈʃædoʊɪŋ/</td><td>跟讀練習</td><td>新詞</td></tr><tr><td><strong>introduce</strong></td><td>/ˌɪntrəˈduːs/</td><td>介紹；引進</td><td>新詞</td></tr><tr><td><strong>schedule</strong></td><td>/ˈskedʒuːl/</td><td>行程；安排</td><td>新詞</td></tr><tr><td><strong>progress</strong></td><td>/ˈprɑːɡres/</td><td>進步；進展</td><td>新詞</td></tr><tr><td><strong>flexible</strong></td><td>/ˈfleksəbl/</td><td>有彈性的；靈活的</td><td>新詞</td></tr><tr><td><strong>review</strong></td><td>/rɪˈvjuː/</td><td>複習；檢視</td><td>複習</td></tr><tr><td><strong>goal</strong></td><td>/ɡoʊl/</td><td>目標</td><td>複習</td></tr><tr><td><strong>practice</strong></td><td>/ˈpræktɪs/</td><td>練習</td><td>複習</td></tr></table><hr><h2>文法重點</h2><p><strong>Using &#x27;One reason is that...&#x27; to Extend an Answer</strong></p><p>當你表達意見後，可以用 One reason is that... 加上具體原因，避免回答太短。</p><p><em>In my opinion, S + V. One reason is that S + V.</em></p><p>In my opinion, online learning is highly practical. One reason is that it allows busy adults to review lessons at their own pace.</p><hr><h2>閱讀：A Practical Approach to English Learning</h2><p>English learners often need a practical approach when preparing for international exams. Many adults have limited time, so they must focus on activities that produce clear results. For example, reading short academic passages can build vocabulary, while shadowing spoken sentences can improve pronunciation and listening speed. A learner may also record a short response every day to develop fluency. This method does not require long study hours, but it does require consistency. Teachers frequently emphasize that receiving feedback helps students correct mistakes before they become habits. An efficient schedule might include fifteen minutes of review, ten minutes of reading, and five minutes of speaking practice. When learners introduce themselves in English, they also practice high-frequency phrases used in workplace and campus settings. A flexible plan allows busy professionals to study during commutes or short breaks without feeling overwhelmed. Over time, small daily actions can lead to noticeable progress in reading, listening, speaking, and writing. Students who set a clear goal and track their progress are more likely to stay motivated throughout a sixty-day preparation cycle.</p><p><strong>中文翻譯：</strong>準備國際英語考試時，英文學習者通常需要一個實用的方法。許多成人時間有限，因此必須專注於能產生明確成果的活動。例如，閱讀短篇學術文章可以建立字彙，而跟讀口語句子可以改善發音與聽力速度。學習者也可以每天錄製一段短回答來培養流暢度。這個方法不需要很長的學習時間，但需要持續性。教師常強調，獲得回饋有助學生在錯誤變成習慣前加以修正。一份有效率的行程可能包含十五分鐘複習、十分鐘閱讀與五分鐘口說練習。當學習者用英文自我介紹時，也同時練習職場與校園情境的高頻片語。有彈性的計畫讓忙碌的專業人士能在通勤或短暫空檔學習而不至於不堪負荷。隨著時間累積，每天的小行動能在閱讀、聽力、口說與寫作方面帶來明顯進步。設定清楚目標並追蹤進度的學生，較能在六十天的準備週期內保持動力。</p><hr><h2>跟讀練習（3 句）</h2><h3>第 1 句</h3><p><strong>English learners often need a practical approach when preparing for international exams.</strong></p><p>發音提示：注意 need a 的連音，可自然連成 /niːdə/；practical approach 中 practical 重音在第一音節。</p><p>跟讀步驟：先聽一次，再逐句跟讀，最後不看文字朗讀一次。</p><h3>第 2 句</h3><p><strong>Shadowing spoken sentences can improve pronunciation and listening speed.</strong></p><p>發音提示：spoken sentences 中 s 與 s 會連接；and listening 的 and 常弱讀為 /ən/。</p><p>跟讀步驟：先慢速跟讀兩遍，再加速至正常語速，注意重音落在 improve 與 pronunciation。</p><h3>第 3 句</h3><p><strong>Over time, small daily actions can lead to noticeable progress in reading, listening, speaking, and writing.</strong></p><p>發音提示：Over time 語調略上升；and writing 前 and 弱讀，整句尾音下降表示句子結束。</p><p>跟讀步驟：分段練習：前半至 noticeable progress，後半列出四項技能，最後整句連貫朗讀。</p><hr><h2>TOEFL 技能訓練</h2><p>請用 45 秒回答問題，練習 opinion + reason + example + result 的結構。</p><p><strong>題目：</strong>Do you prefer studying English alone or with a teacher? Why?</p><p><strong>架構：</strong>I prefer ___. One reason is that ___. For example, ___. As a result, ___.</p><p><strong>範例：</strong>I prefer studying English with a teacher because I can receive immediate feedback. For example, when I make grammar or pronunciation mistakes, a teacher can correct me right away. As a result, I can improve faster and avoid repeating the same errors.</p><hr><h2>每日測驗（含答案）</h2><p><strong>Q1.</strong> Which word is closest in meaning to &#x27;approach&#x27; in the reading?</p><ul><li>A. Problem</li><li>B. Method</li><li>C. Result</li><li>D. Mistake</li></ul><p><strong>答案：B</strong> — 文中 a practical approach 指的是「實用的方法」，因此最接近 method。</p><p><strong>Q2.</strong> According to the passage, what is required for this learning method to work?</p><ul><li>A. Long study hours every day</li><li>B. Consistency</li><li>C. A private tutor</li><li>D. Expensive materials</li></ul><p><strong>答案：B</strong> — 文中明確提到 it does require consistency，而非長時間學習。</p><p><strong>Q3.</strong> Which sentence correctly uses the grammar pattern from today?</p><ul><li>A. I like English. Because it is useful.</li><li>B. In my opinion, practice helps. One reason is that it builds fluency.</li><li>C. English is hard but I try.</li><li>D. Practice is good and fun.</li></ul><p><strong>答案：B</strong> — 選項 B 正確運用 In my opinion... One reason is that... 的句型結構。</p><hr><p><em>祝學習順利！明日 09:00 將寄送下一課。</em></p>"
+  },
+  "history_update": {
+    "new_words_today": [
+      "approach",
+      "consistent",
+      "fluency",
+      "feedback",
+      "efficient",
+      "limited",
+      "pronunciation",
+      "shadowing",
+      "introduce",
+      "schedule",
+      "progress",
+      "flexible"
+    ],
+    "review_words_today": [
+      "review",
+      "goal",
+      "practice"
+    ],
+    "grammar_today": "Using 'One reason is that...' to Extend an Answer",
+    "theme_today": "Workplace Introductions and Study Planning",
+    "skill_type_today": "independent_speaking"
+  }
+}

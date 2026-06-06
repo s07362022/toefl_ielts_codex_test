@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "day": 3,
+    "date_label": "6/7",
+    "phase": "Foundation",
+    "level": "B1+",
+    "estimated_minutes": 18,
+    "exam_focus": [
+      "TOEFL",
+      "IELTS",
+      "Daily Speaking"
+    ],
+    "theme": "Travel and Cultural Exchange",
+    "weekday_plan": "Speaking - independent speaking"
+  },
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "ambitious response",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "與「有企圖心的」相關的常用片語",
+      "example": "The phrase 'ambitious response' is useful when discussing study, work, or academic topics.",
+      "collocation": "ambitious response",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 2,
+      "word": "feature development",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「特色；特徵」相關的常用片語",
+      "example": "The phrase 'feature development' is useful when discussing study, work, or academic topics.",
+      "collocation": "feature development",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 3,
+      "word": "debate in context",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "與「辯論；討論」相關的常用片語",
+      "example": "The phrase 'debate in context' is useful when discussing study, work, or academic topics.",
+      "collocation": "debate in context",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 4,
+      "word": "mode for speaking",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「模式」相關的常用片語",
+      "example": "The phrase 'mode for speaking' is useful when discussing study, work, or academic topics.",
+      "collocation": "mode for speaking",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 5,
+      "word": "consume a trend",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "與「消耗；消費」相關的常用片語",
+      "example": "The phrase 'consume a trend' is useful when discussing study, work, or academic topics.",
+      "collocation": "consume a trend",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 6,
+      "word": "identity and examples",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "與「身份；認同」相關的常用片語",
+      "example": "The phrase 'identity and examples' is useful when discussing study, work, or academic topics.",
+      "collocation": "identity and examples",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 7,
+      "word": "anxiety for speaking",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "與「焦慮」相關的常用片語",
+      "example": "The phrase 'anxiety for speaking' is useful when discussing study, work, or academic topics.",
+      "collocation": "anxiety for speaking",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 8,
+      "word": "mature for learners",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「成熟的」相關的常用片語",
+      "example": "The phrase 'mature for learners' is useful when discussing study, work, or academic topics.",
+      "collocation": "mature for learners",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 9,
+      "word": "conventional in daily communication",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「傳統的」相關的常用片語",
+      "example": "The phrase 'conventional in daily communication' is useful when discussing study, work, or academic topics.",
+      "collocation": "conventional in daily communication",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 10,
+      "word": "policy",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "政策",
+      "example": "The phrase 'policy' is useful when discussing study, work, or academic topics.",
+      "collocation": "policy",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 11,
+      "word": "highly adequate",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「足夠的」相關的常用片語",
+      "example": "The phrase 'highly adequate' is useful when discussing study, work, or academic topics.",
+      "collocation": "highly adequate",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 12,
+      "word": "adequate in daily communication",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「足夠的」相關的常用片語",
+      "example": "The phrase 'adequate in daily communication' is useful when discussing study, work, or academic topics.",
+      "collocation": "adequate in daily communication",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 13,
+      "word": "individual development",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「個人；個別的」相關的常用片語",
+      "example": "The phrase 'individual development' is useful when discussing study, work, or academic topics.",
+      "collocation": "individual development",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 14,
+      "word": "considerable in academic writing",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「相當大的」相關的常用片語",
+      "example": "The phrase 'considerable in academic writing' is useful when discussing study, work, or academic topics.",
+      "collocation": "considerable in academic writing",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 15,
+      "word": "key labor",
+      "type": "phrase",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "與「勞動；勞工」相關的常用片語",
+      "example": "The phrase 'key labor' is useful when discussing study, work, or academic topics.",
+      "collocation": "key labor",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 16,
+      "word": "contrast",
+      "type": "n./v.",
+      "phonetic_us": "/ˈkɑːntræst/",
+      "category": "Academic",
+      "status": "review",
+      "definition_tw": "對比",
+      "example": "The author contrasts online learning with traditional classroom instruction.",
+      "collocation": "in contrast; contrast A with B",
+      "usage_note_tw": "閱讀推論與寫作連接詞相關。"
+    },
+    {
+      "id": 17,
+      "word": "feedback",
+      "type": "n.",
+      "phonetic_us": "/ˈfiːdbæk/",
+      "category": "Business",
+      "status": "review",
+      "definition_tw": "回饋；意見",
+      "example": "Receiving feedback from a teacher helps learners correct mistakes quickly.",
+      "collocation": "receive feedback; constructive feedback",
+      "usage_note_tw": "職場與學習情境皆高頻。"
+    },
+    {
+      "id": 18,
+      "word": "interpret",
+      "type": "v.",
+      "phonetic_us": "/ɪnˈtɜːrprɪt/",
+      "category": "IELTS",
+      "status": "review",
+      "definition_tw": "詮釋；解讀",
+      "example": "Students must interpret the speaker's attitude in listening tasks.",
+      "collocation": "interpret data; interpret meaning",
+      "usage_note_tw": "聽力與閱讀推論必備。"
+    },
+    {
+      "id": 19,
+      "word": "retain",
+      "type": "v.",
+      "phonetic_us": "/rɪˈteɪn/",
+      "category": "TOEFL",
+      "status": "review",
+      "definition_tw": "保留；記住",
+      "example": "Spaced review helps learners retain vocabulary longer.",
+      "collocation": "retain information; retain employees",
+      "usage_note_tw": "學習與記憶語境常用。"
+    },
+    {
+      "id": 20,
+      "word": "fluency",
+      "type": "n.",
+      "phonetic_us": "/ˈfluːənsi/",
+      "category": "TOEFL",
+      "status": "review",
+      "definition_tw": "流暢度；流利",
+      "example": "Daily speaking practice can gradually build fluency.",
+      "collocation": "build fluency; improve fluency",
+      "usage_note_tw": "口說備考核心詞。"
+    }
+  ],
+  "grammar_focus": {
+    "title": "Using 'As a result,...' to Show Outcome",
+    "function": "說明行動帶來的結果。",
+    "explanation_tw": "在舉例後用 As a result 連接最終成效，完成 O-R-E-R 結構。",
+    "pattern": "S + V. As a result, S + V.",
+    "example_basic": "I practice daily. As a result, I feel more confident.",
+    "example_advanced": "I record my answers every evening. As a result, I can track my progress and fix recurring mistakes."
+  },
+  "reading": {
+    "title": "Travel",
+    "text": "In today's global workplace, professionals must communicate clearly across cultures and time zones. Team members often collaborate on projects while managing demanding schedules, so precise language matters. Today's vocabulary introduces expressions such as 'ambitious response', 'feature development', 'debate in context', and 'mode for speaking'; each one can help learners explain work, travel, or cultural situations with more confidence. When presenting ideas, speakers should connect their message to relevant examples. It is also crucial to remain calm during discussions and respond to feedback constructively. Managers may negotiate deadlines or resources, so employees need flexible communication skills. A clear meeting agenda helps groups allocate time and stay focused on relevant priorities. Although challenges are inherent in international teams, shared goals can improve collaboration across departments. Expressions like 'consume a trend', 'identity and examples', and 'anxiety for speaking' are useful because they allow professionals to summarize decisions, ask follow-up questions, and reduce misunderstandings before a project moves forward. Companies that invest in language training frequently report smoother negotiations and stronger relationships with overseas partners. As a result, communication training is no longer optional for ambitious professionals in competitive industries.",
+    "embedded_words": [
+      "ambitious response",
+      "feature development",
+      "debate in context",
+      "mode for speaking",
+      "consume a trend",
+      "identity and examples"
+    ],
+    "translation_tw": "在今日全球職場中，專業人士必須跨文化與跨時區清楚溝通。團隊成員常在管理繁忙行程的同時合作專案。報告想法時，說話者應以相關例子傳達訊息。討論中保持自信並建設性回應回饋也至關重要。主管可能協商截止日期或資源，因此員工需要有效的溝通技巧。清楚的會議議程有助團隊分配時間並保持專注。雖然國際團隊挑戰固有，共同目標能促進合作。因此，投資語言培訓的公司常見團隊合作與客戶關係的顯著改善。"
+  },
+  "listening_speaking": [
+    {
+      "id": 1,
+      "sentence": "In today's global workplace, professionals must communicate clearly across cultures and time zones.",
+      "pronunciation_tips_tw": "注意功能詞的連音與重音位置，先慢速再加速。",
+      "shadowing_steps_tw": "先聽一次，再逐句跟讀，最後不看文字朗讀。",
+      "focus": "linking"
+    },
+    {
+      "id": 2,
+      "sentence": "Team members often collaborate on projects while managing demanding schedules, so precise language matters.",
+      "pronunciation_tips_tw": "留意 and、to、of 等虛詞的弱化發音。",
+      "shadowing_steps_tw": "先慢速跟讀兩遍，再加速至正常語速。",
+      "focus": "reduction"
+    },
+    {
+      "id": 3,
+      "sentence": "Today's vocabulary introduces expressions such as 'ambitious response', 'feature development', 'debate in context', and 'mode for speaking'; each one can help learners explain work, travel, or cultural situations with more confidence.",
+      "pronunciation_tips_tw": "句尾語調略下降，表示陳述句結束。",
+      "shadowing_steps_tw": "分段練習後，最後整句連貫朗讀一次。",
+      "focus": "intonation"
+    }
+  ],
+  "toefl_skill_drill": {
+    "skill_type": "independent_speaking",
+    "instruction_tw": "請依今日所學完成一題 TOEFL 導向練習，口說 45 秒或寫 3–4 句。",
+    "prompt": "Do you prefer studying alone or in a group? Why?",
+    "response_framework": "I believe ___. One reason is that ___. For example, ___. As a result, ___.",
+    "sample_answer": "I believe daily practice is essential. One reason is that it builds ambitious response over time. For example, I review vocabulary every morning before work. As a result, I feel more prepared for academic tasks.",
+    "useful_phrases": [
+      "ambitious response",
+      "feature development",
+      "debate in context"
+    ]
+  },
+  "daily_quiz": [
+    {
+      "question_id": 1,
+      "question": "Which definition best matches 'ambitious response'?",
+      "options": [
+        "A. 與「有企圖心的」相關的常用片語",
+        "B. 與「特色",
+        "C. 與「辯論",
+        "D. 與「模式」相關的常用片語"
+      ],
+      "answer": "A",
+      "explanation_tw": "今日單字 ambitious response 的解釋為「與「有企圖心的」相關的常用片語」。"
+    },
+    {
+      "question_id": 2,
+      "question": "What is the main idea of today's reading?",
+      "options": [
+        "A. Effective learning requires consistent, structured practice.",
+        "B. Cramming once a week is the best method.",
+        "C. Vocabulary lists alone guarantee a high score.",
+        "D. Test preparation should avoid speaking practice."
+      ],
+      "answer": "A",
+      "explanation_tw": "文章強調有限時間下，持續且結構化的練習才能帶來進步。"
+    },
+    {
+      "question_id": 3,
+      "question": "Which sentence uses today's grammar pattern correctly?",
+      "options": [
+        "A. I like English. Because it is useful.",
+        "B. In my opinion, practice helps. One reason is that it builds fluency.",
+        "C. Practice good and fun.",
+        "D. English hard but I try."
+      ],
+      "answer": "B",
+      "explanation_tw": "選項 B 正確運用 In my opinion... One reason is that... 句型。"
+    }
+  ],
+  "history_update": {
+    "new_words_today": [
+      "ambitious response",
+      "feature development",
+      "debate in context",
+      "mode for speaking",
+      "consume a trend",
+      "identity and examples",
+      "anxiety for speaking",
+      "mature for learners",
+      "conventional in daily communication",
+      "policy",
+      "highly adequate",
+      "adequate in daily communication",
+      "individual development",
+      "considerable in academic writing",
+      "key labor"
+    ],
+    "review_words_today": [
+      "contrast",
+      "feedback",
+      "interpret",
+      "retain",
+      "fluency"
+    ],
+    "grammar_today": "Using 'As a result,...' to Show Outcome",
+    "theme_today": "Travel and Cultural Exchange",
+    "skill_type_today": "independent_speaking"
+  },
+  "gmail_email": {
+    "recipient": "gish1040403@gmail.com",
+    "subject": "Day 3 英文學習｜Travel and Cultural Exchange",
+    "html_body": "<h1>Day 3 英文學習</h1><p><strong>今日主題：</strong>Travel and Cultural Exchange</p><p><strong>階段：</strong>Foundation · <strong>程度：</strong>B1+ · <strong>預估：</strong>18 分鐘</p><p><strong>今日訓練：</strong>Speaking - independent speaking</p><hr><h2>今日單字</h2><table border='1' cellpadding='6' cellspacing='0' style='border-collapse:collapse;width:100%'><tr><th>單字</th><th>音標</th><th>解釋</th><th>狀態</th></tr><tr><td><strong>ambitious response</strong></td><td></td><td>與「有企圖心的」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>feature development</strong></td><td></td><td>與「特色；特徵」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>debate in context</strong></td><td></td><td>與「辯論；討論」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>mode for speaking</strong></td><td></td><td>與「模式」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>consume a trend</strong></td><td></td><td>與「消耗；消費」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>identity and examples</strong></td><td></td><td>與「身份；認同」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>anxiety for speaking</strong></td><td></td><td>與「焦慮」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>mature for learners</strong></td><td></td><td>與「成熟的」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>conventional in daily communication</strong></td><td></td><td>與「傳統的」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>policy</strong></td><td></td><td>政策</td><td>新詞</td></tr><tr><td><strong>highly adequate</strong></td><td></td><td>與「足夠的」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>adequate in daily communication</strong></td><td></td><td>與「足夠的」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>individual development</strong></td><td></td><td>與「個人；個別的」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>considerable in academic writing</strong></td><td></td><td>與「相當大的」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>key labor</strong></td><td></td><td>與「勞動；勞工」相關的常用片語</td><td>新詞</td></tr><tr><td><strong>contrast</strong></td><td>/ˈkɑːntræst/</td><td>對比</td><td>複習</td></tr><tr><td><strong>feedback</strong></td><td>/ˈfiːdbæk/</td><td>回饋；意見</td><td>複習</td></tr><tr><td><strong>interpret</strong></td><td>/ɪnˈtɜːrprɪt/</td><td>詮釋；解讀</td><td>複習</td></tr><tr><td><strong>retain</strong></td><td>/rɪˈteɪn/</td><td>保留；記住</td><td>複習</td></tr><tr><td><strong>fluency</strong></td><td>/ˈfluːənsi/</td><td>流暢度；流利</td><td>複習</td></tr></table><hr><h2>文法重點</h2><p><strong>Using &#x27;As a result,...&#x27; to Show Outcome</strong></p><p>在舉例後用 As a result 連接最終成效，完成 O-R-E-R 結構。</p><p><em>S + V. As a result, S + V.</em></p><p>I record my answers every evening. As a result, I can track my progress and fix recurring mistakes.</p><hr><h2>閱讀：Travel</h2><p>In today&#x27;s global workplace, professionals must communicate clearly across cultures and time zones. Team members often collaborate on projects while managing demanding schedules, so precise language matters. Today&#x27;s vocabulary introduces expressions such as &#x27;ambitious response&#x27;, &#x27;feature development&#x27;, &#x27;debate in context&#x27;, and &#x27;mode for speaking&#x27;; each one can help learners explain work, travel, or cultural situations with more confidence. When presenting ideas, speakers should connect their message to relevant examples. It is also crucial to remain calm during discussions and respond to feedback constructively. Managers may negotiate deadlines or resources, so employees need flexible communication skills. A clear meeting agenda helps groups allocate time and stay focused on relevant priorities. Although challenges are inherent in international teams, shared goals can improve collaboration across departments. Expressions like &#x27;consume a trend&#x27;, &#x27;identity and examples&#x27;, and &#x27;anxiety for speaking&#x27; are useful because they allow professionals to summarize decisions, ask follow-up questions, and reduce misunderstandings before a project moves forward. Companies that invest in language training frequently report smoother negotiations and stronger relationships with overseas partners. As a result, communication training is no longer optional for ambitious professionals in competitive industries.</p><p><strong>中文翻譯：</strong>在今日全球職場中，專業人士必須跨文化與跨時區清楚溝通。團隊成員常在管理繁忙行程的同時合作專案。報告想法時，說話者應以相關例子傳達訊息。討論中保持自信並建設性回應回饋也至關重要。主管可能協商截止日期或資源，因此員工需要有效的溝通技巧。清楚的會議議程有助團隊分配時間並保持專注。雖然國際團隊挑戰固有，共同目標能促進合作。因此，投資語言培訓的公司常見團隊合作與客戶關係的顯著改善。</p><hr><h2>跟讀練習（3 句）</h2><h3>第 1 句</h3><p><strong>In today&#x27;s global workplace, professionals must communicate clearly across cultures and time zones.</strong></p><p>發音提示：注意功能詞的連音與重音位置，先慢速再加速。</p><p>跟讀步驟：先聽一次，再逐句跟讀，最後不看文字朗讀。</p><h3>第 2 句</h3><p><strong>Team members often collaborate on projects while managing demanding schedules, so precise language matters.</strong></p><p>發音提示：留意 and、to、of 等虛詞的弱化發音。</p><p>跟讀步驟：先慢速跟讀兩遍，再加速至正常語速。</p><h3>第 3 句</h3><p><strong>Today&#x27;s vocabulary introduces expressions such as &#x27;ambitious response&#x27;, &#x27;feature development&#x27;, &#x27;debate in context&#x27;, and &#x27;mode for speaking&#x27;; each one can help learners explain work, travel, or cultural situations with more confidence.</strong></p><p>發音提示：句尾語調略下降，表示陳述句結束。</p><p>跟讀步驟：分段練習後，最後整句連貫朗讀一次。</p><hr><h2>TOEFL 技能訓練</h2><p>請依今日所學完成一題 TOEFL 導向練習，口說 45 秒或寫 3–4 句。</p><p><strong>題目：</strong>Do you prefer studying alone or in a group? Why?</p><p><strong>架構：</strong>I believe ___. One reason is that ___. For example, ___. As a result, ___.</p><p><strong>範例：</strong>I believe daily practice is essential. One reason is that it builds ambitious response over time. For example, I review vocabulary every morning before work. As a result, I feel more prepared for academic tasks.</p><hr><h2>每日測驗（含答案）</h2><p><strong>Q1.</strong> Which definition best matches &#x27;ambitious response&#x27;?</p><ul><li>A. 與「有企圖心的」相關的常用片語</li><li>B. 與「特色</li><li>C. 與「辯論</li><li>D. 與「模式」相關的常用片語</li></ul><p><strong>答案：A</strong> — 今日單字 ambitious response 的解釋為「與「有企圖心的」相關的常用片語」。</p><p><strong>Q2.</strong> What is the main idea of today&#x27;s reading?</p><ul><li>A. Effective learning requires consistent, structured practice.</li><li>B. Cramming once a week is the best method.</li><li>C. Vocabulary lists alone guarantee a high score.</li><li>D. Test preparation should avoid speaking practice.</li></ul><p><strong>答案：A</strong> — 文章強調有限時間下，持續且結構化的練習才能帶來進步。</p><p><strong>Q3.</strong> Which sentence uses today&#x27;s grammar pattern correctly?</p><ul><li>A. I like English. Because it is useful.</li><li>B. In my opinion, practice helps. One reason is that it builds fluency.</li><li>C. Practice good and fun.</li><li>D. English hard but I try.</li></ul><p><strong>答案：B</strong> — 選項 B 正確運用 In my opinion... One reason is that... 句型。</p><hr><p><em>祝學習順利！明日 09:00 將寄送下一課。</em></p>"
+  }
+}

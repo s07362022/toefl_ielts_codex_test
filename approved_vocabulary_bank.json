@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "description": "Seed vocabulary when web search is unavailable. Expand over time.",
+  "foundation_daily": [
+    "approach", "flexible", "consistency", "feedback", "practical",
+    "efficient", "schedule", "progress", "review", "fluency"
+  ],
+  "foundation_academic": [
+    "analyze", "concept", "context", "demonstrate", "establish",
+    "factor", "impact", "method", "process", "significant"
+  ],
+  "development_academic": [
+    "allocate", "comprehensive", "derive", "hypothesis", "implication",
+    "interpret", "phenomenon", "prioritize", "subsequent", "underlying"
+  ],
+  "sprint_academic": [
+    "advocate", "correlate", "deteriorate", "exceed", "inherent",
+    "mitigate", "paradigm", "preliminary", "sustain", "viability"
+  ]
+}
