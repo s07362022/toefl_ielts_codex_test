@@ -59,6 +59,12 @@ const skillLabels: Record<string, string> = {
   mixed_review: "Mixed Review",
 };
 
+const assetBase = import.meta.env.BASE_URL;
+
+function dailyLessonUrl(file: string) {
+  return `${assetBase}daily_lessons/${file}`.replace(/\/{2,}/g, "/");
+}
+
 function isLessonData(value: unknown): value is LessonData {
   const lesson = value as LessonData;
   return Boolean(
@@ -195,7 +201,7 @@ function App() {
   const day = lesson.metadata.day || 1;
 
   async function loadLessonFile(file: string, nextTab: TabId = "summary") {
-    const response = await fetch(`/daily_lessons/${file}`);
+    const response = await fetch(dailyLessonUrl(file));
     if (!response.ok) throw new Error(`Unable to load ${file}`);
     const data = await response.json();
     const result = mergeLesson(data);
@@ -205,7 +211,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch("/daily_lessons/history_index.json")
+    fetch(dailyLessonUrl("history_index.json"))
       .then((response) => (response.ok ? response.json() : Promise.resolve({ lessons: [] })))
       .then((index) => {
         const lessons = Array.isArray(index?.lessons) ? index.lessons : [];
@@ -213,7 +219,7 @@ function App() {
       })
       .catch(() => setHistoryLessons([]));
 
-    fetch("/daily_lessons/current_day.json")
+    fetch(dailyLessonUrl("current_day.json"))
       .then((response) =>
         response.ok
           ? response.json()
