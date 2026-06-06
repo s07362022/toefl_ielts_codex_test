@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "day": 3,
+    "date_label": "6/7",
+    "phase": "Foundation",
+    "level": "B1+",
+    "estimated_minutes": 24,
+    "exam_focus": [
+      "TOEFL",
+      "IELTS",
+      "Daily Speaking"
+    ],
+    "theme": "Travel and Cultural Exchange",
+    "weekday_plan": "Speaking - compare choices and explain benefits"
+  },
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "adapt",
+      "type": "v.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "適應；調整",
+      "example": "The phrase 'adapt' is useful when discussing study, work, or academic topics.",
+      "collocation": "adapt",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 2,
+      "word": "adequate",
+      "type": "adj.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "足夠的",
+      "example": "The phrase 'adequate' is useful when discussing study, work, or academic topics.",
+      "collocation": "adequate",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 3,
+      "word": "adjust",
+      "type": "v.",
+      "phonetic_us": "",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "調整",
+      "example": "The phrase 'adjust' is useful when discussing study, work, or academic topics.",
+      "collocation": "adjust",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 4,
+      "word": "advantage",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "優點",
+      "example": "The phrase 'advantage' is useful when discussing study, work, or academic topics.",
+      "collocation": "advantage",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 5,
+      "word": "alternative",
+      "type": "n./adj.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "替代方案",
+      "example": "The phrase 'alternative' is useful when discussing study, work, or academic topics.",
+      "collocation": "alternative",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 6,
+      "word": "ambitious",
+      "type": "adj.",
+      "phonetic_us": "",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "有企圖心的",
+      "example": "The phrase 'ambitious' is useful when discussing study, work, or academic topics.",
+      "collocation": "ambitious",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 7,
+      "word": "anxiety",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "焦慮",
+      "example": "The phrase 'anxiety' is useful when discussing study, work, or academic topics.",
+      "collocation": "anxiety",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 8,
+      "word": "application",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "應用；申請",
+      "example": "The phrase 'application' is useful when discussing study, work, or academic topics.",
+      "collocation": "application",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 9,
+      "word": "appropriate",
+      "type": "adj.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "適當的",
+      "example": "The phrase 'appropriate' is useful when discussing study, work, or academic topics.",
+      "collocation": "appropriate",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 10,
+      "word": "argument",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "論點；爭論",
+      "example": "The phrase 'argument' is useful when discussing study, work, or academic topics.",
+      "collocation": "argument",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 11,
+      "word": "assessment",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "評估",
+      "example": "The phrase 'assessment' is useful when discussing study, work, or academic topics.",
+      "collocation": "assessment",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 12,
+      "word": "assumption",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "假設",
+      "example": "The phrase 'assumption' is useful when discussing study, work, or academic topics.",
+      "collocation": "assumption",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 13,
+      "word": "attitude",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "態度",
+      "example": "The phrase 'attitude' is useful when discussing study, work, or academic topics.",
+      "collocation": "attitude",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 14,
+      "word": "audience",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "聽眾；觀眾",
+      "example": "The phrase 'audience' is useful when discussing study, work, or academic topics.",
+      "collocation": "audience",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 15,
+      "word": "authority",
+      "type": "n.",
+      "phonetic_us": "",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "權威；權力",
+      "example": "The phrase 'authority' is useful when discussing study, work, or academic topics.",
+      "collocation": "authority",
+      "usage_note_tw": "此項目作為 TOEFL/IELTS 與日常商務表達的可抽取詞彙或片語。"
+    },
+    {
+      "id": 16,
+      "word": "factor",
+      "type": "n.",
+      "phonetic_us": "/ˈfæktər/",
+      "category": "TOEFL",
+      "status": "review",
+      "definition_tw": "因素",
+      "example": "Time management is an important factor in exam preparation.",
+      "collocation": "key factor; contributing factor",
+      "usage_note_tw": "分析因果時常用。"
+    },
+    {
+      "id": 17,
+      "word": "impact",
+      "type": "n./v.",
+      "phonetic_us": "/ˈɪmpækt/",
+      "category": "Academic",
+      "status": "review",
+      "definition_tw": "影響",
+      "example": "Daily listening practice can have a positive impact on comprehension.",
+      "collocation": "significant impact; impact on",
+      "usage_note_tw": "學術與新聞常見。"
+    },
+    {
+      "id": 18,
+      "word": "interpret",
+      "type": "v.",
+      "phonetic_us": "/ɪnˈtɜːrprɪt/",
+      "category": "IELTS",
+      "status": "review",
+      "definition_tw": "詮釋；解讀",
+      "example": "Students must interpret the speaker's attitude in listening tasks.",
+      "collocation": "interpret data; interpret meaning",
+      "usage_note_tw": "聽力與閱讀推論必備。"
+    },
+    {
+      "id": 19,
+      "word": "prioritize",
+      "type": "v.",
+      "phonetic_us": "/praɪˈɔːrətaɪz/",
+      "category": "Business",
+      "status": "review",
+      "definition_tw": "優先處理",
+      "example": "Busy learners should prioritize high-frequency vocabulary first.",
+      "collocation": "prioritize tasks; prioritize goals",
+      "usage_note_tw": "時間管理與商務常用。"
+    },
+    {
+      "id": 20,
+      "word": "strategy",
+      "type": "n.",
+      "phonetic_us": "/ˈstrætədʒi/",
+      "category": "Business",
+      "status": "review",
+      "definition_tw": "策略",
+      "example": "A clear test strategy can reduce anxiety on exam day.",
+      "collocation": "learning strategy; effective strategy",
+      "usage_note_tw": "商務與備考通用。"
+    }
+  ],
+  "grammar_focus": {
+    "title": "Using 'As a result,...' to Show Outcome",
+    "function": "用於說明行動帶來的結果，適合 TOEFL 口說、IELTS Part 3 與學術寫作。",
+    "explanation_tw": "As a result,... 可以把前一句的原因或行動接成結果。使用時前後句要有因果關係，避免只把兩個無關句子硬接在一起。",
+    "pattern": "S + V. As a result, S + V.",
+    "example_basic": "I practiced speaking every day. As a result, I became more confident.",
+    "example_advanced": "Travelers adapt to unfamiliar situations during cultural exchange. As a result, they develop a more flexible attitude toward communication."
+  },
+  "reading": {
+    "title": "Travel as Cultural Exchange",
+    "text": "Travel is not only a break from routine; it can also become a meaningful form of cultural exchange. When people visit another country, they must adapt to new customs, adjust their expectations, and communicate with a diverse audience. This process can reduce anxiety because travelers learn that small mistakes are a normal part of communication. It also gives them access to different perspectives that may challenge their original assumptions. For example, a visitor might discover that an appropriate greeting in one culture feels too formal in another. This experience has a clear benefit: it helps people develop a more open attitude. In academic discussions, students can use travel examples to support an argument about education, identity, or social development. However, the assessment of travel should be balanced. Travel is not automatically valuable; it becomes valuable when people reflect on what they observe and connect it to a wider cultural context.",
+    "embedded_words": [
+      "adapt",
+      "adjust",
+      "diverse",
+      "audience",
+      "anxiety",
+      "access",
+      "perspective",
+      "challenge",
+      "assumption",
+      "appropriate",
+      "benefit",
+      "attitude",
+      "argument",
+      "identity",
+      "assessment"
+    ],
+    "translation_tw": "旅行不只是從日常中休息，它也可以成為有意義的文化交流。當人們到另一個國家時，必須適應新的習俗、調整期待，並和多樣的對象溝通。這個過程能降低焦慮，因為旅人會學到小錯誤是溝通中正常的一部分。它也讓人接觸不同觀點，進而挑戰原本的假設。例如，旅人可能發現某個文化中合適的打招呼方式，在另一個文化中會顯得太正式。這種經驗有明確好處：它能幫助人們形成更開放的態度。在學術討論中，學生可以用旅行例子支持關於教育、身分認同或社會發展的論點。不過，對旅行的評估應該保持平衡。旅行不會自動變得有價值；當人們反思觀察到的事，並把它連結到更廣的文化脈絡時，它才真正有價值。"
+  },
+  "listening_speaking": [
+    {
+      "id": 1,
+      "sentence": "Travel can become a meaningful form of cultural exchange.",
+      "pronunciation_tips_tw": "meaningful form of 連讀時 form of 可弱化，cultural exchange 是重點片語。",
+      "shadowing_steps_tw": "先慢讀 cultural exchange，再把整句分成 Travel can become / a meaningful form / of cultural exchange。",
+      "focus": "linking"
+    },
+    {
+      "id": 2,
+      "sentence": "Travelers must adapt to new customs and adjust their expectations.",
+      "pronunciation_tips_tw": "adapt to 的 /t/ 接 to 可輕讀，adjust their 要注意 /dʒ/ 音。",
+      "shadowing_steps_tw": "把 adapt to new customs 和 adjust their expectations 當成兩個並列動作練節奏。",
+      "focus": "flap t"
+    },
+    {
+      "id": 3,
+      "sentence": "As a result, they develop a more flexible attitude toward communication.",
+      "pronunciation_tips_tw": "As a result 後面停頓，develop 與 attitude 是句子重點，toward 可弱讀。",
+      "shadowing_steps_tw": "先練 As a result 的轉折語氣，再接後半句，收尾時降調。",
+      "focus": "intonation"
+    }
+  ],
+  "toefl_skill_drill": {
+    "skill_type": "independent_speaking",
+    "instruction_tw": "用旅行或文化交流當例子。先給立場，再用 As a result 連出結果，最後補一句平衡觀點。",
+    "prompt": "Do you think traveling is one of the best ways to learn about other cultures?",
+    "response_framework": "I think traveling is helpful because... As a result,... However, it is most useful when...",
+    "sample_answer": "I think traveling is one of the best ways to learn about other cultures because it forces people to communicate in real situations. Travelers must adapt to new customs and adjust their expectations. As a result, they often develop a more open attitude toward communication. However, travel is most useful when people reflect on what they experience instead of only taking photos or visiting famous places.",
+    "useful_phrases": [
+      "cultural exchange",
+      "adapt to new customs",
+      "As a result...",
+      "a more open attitude",
+      "reflect on what they experience"
+    ]
+  },
+  "daily_quiz": [
+    {
+      "question_id": 1,
+      "question": "Which word means '適應；調整'?",
+      "options": [
+        "A. adapt",
+        "B. benefit",
+        "C. authority",
+        "D. audience"
+      ],
+      "answer": "A",
+      "explanation_tw": "adapt 表示適應新情況或調整做法，文章用於適應新習俗。"
+    },
+    {
+      "question_id": 2,
+      "question": "According to the reading, when does travel become valuable?",
+      "options": [
+        "A. When people avoid all mistakes.",
+        "B. When people reflect on observations and connect them to cultural context.",
+        "C. When people visit only famous places.",
+        "D. When people never change their assumptions."
+      ],
+      "answer": "B",
+      "explanation_tw": "文章最後明確說明，旅行的價值來自反思與文化脈絡連結。"
+    },
+    {
+      "question_id": 3,
+      "question": "Which sentence correctly uses 'As a result'?",
+      "options": [
+        "A. I practiced daily. As a result, my fluency improved.",
+        "B. As a result because I practiced.",
+        "C. I traveled. As a result customs.",
+        "D. As a result, but I study."
+      ],
+      "answer": "A",
+      "explanation_tw": "A 前後有清楚因果：每天練習帶來流暢度進步。"
+    }
+  ],
+  "gmail_email": {
+    "recipient": "learner@example.com",
+    "subject": "Day 3 TOEFL/IELTS Daily Lesson - Travel and Cultural Exchange",
+    "html_body": "<h1>Day 3: Travel and Cultural Exchange</h1><p>Review the website summary, vocabulary cards, reading, speaking drill, and quiz.</p>"
+  },
+  "history_update": {
+    "new_words_today": [
+      "adapt",
+      "adequate",
+      "adjust",
+      "advantage",
+      "alternative",
+      "ambitious",
+      "anxiety",
+      "application",
+      "appropriate",
+      "argument",
+      "assessment",
+      "assumption",
+      "attitude",
+      "audience",
+      "authority"
+    ],
+    "review_words_today": [
+      "factor",
+      "impact",
+      "interpret",
+      "prioritize",
+      "strategy"
+    ],
+    "grammar_today": "Using 'As a result,...' to Show Outcome",
+    "theme_today": "Travel and Cultural Exchange",
+    "skill_type_today": "independent_speaking"
+  }
+}

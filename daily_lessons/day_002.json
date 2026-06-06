@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "day": 2,
+    "date_label": "6/7",
+    "phase": "Foundation",
+    "level": "B1+",
+    "estimated_minutes": 24,
+    "exam_focus": [
+      "TOEFL",
+      "IELTS",
+      "Daily Speaking"
+    ],
+    "theme": "Daily Routines and Time Management",
+    "weekday_plan": "Listening - note taking and detail tracking"
+  },
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "routine",
+      "type": "n.",
+      "phonetic_us": "/ruːˈtiːn/",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "例行；習慣",
+      "example": "A morning study routine makes preparation less stressful.",
+      "collocation": "daily routine; establish a routine",
+      "usage_note_tw": "日常口語高頻。"
+    },
+    {
+      "id": 2,
+      "word": "retain",
+      "type": "v.",
+      "phonetic_us": "/rɪˈteɪn/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "保留；記住",
+      "example": "Spaced review helps learners retain vocabulary longer.",
+      "collocation": "retain information; retain employees",
+      "usage_note_tw": "學習與記憶語境常用。"
+    },
+    {
+      "id": 3,
+      "word": "strategy",
+      "type": "n.",
+      "phonetic_us": "/ˈstrætədʒi/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "策略",
+      "example": "A clear test strategy can reduce anxiety on exam day.",
+      "collocation": "learning strategy; effective strategy",
+      "usage_note_tw": "商務與備考通用。"
+    },
+    {
+      "id": 4,
+      "word": "confident",
+      "type": "adj.",
+      "phonetic_us": "/ˈkɑːnfɪdənt/",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "有自信的",
+      "example": "Regular speaking practice helps students feel more confident.",
+      "collocation": "feel confident; confident speaker",
+      "usage_note_tw": "口說與面試情境常用。"
+    },
+    {
+      "id": 5,
+      "word": "accurate",
+      "type": "adj.",
+      "phonetic_us": "/ˈækjərət/",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "準確的",
+      "example": "Note-taking should be accurate enough to support your answer.",
+      "collocation": "accurate answer; accurate pronunciation",
+      "usage_note_tw": "學術與考試評語常見。"
+    },
+    {
+      "id": 6,
+      "word": "summarize",
+      "type": "v.",
+      "phonetic_us": "/ˈsʌməraɪz/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "總結",
+      "example": "After reading, try to summarize the main idea in one sentence.",
+      "collocation": "summarize a passage; briefly summarize",
+      "usage_note_tw": "閱讀與寫作必備技能詞。"
+    },
+    {
+      "id": 7,
+      "word": "contrast",
+      "type": "n./v.",
+      "phonetic_us": "/ˈkɑːntræst/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "對比",
+      "example": "The author contrasts online learning with traditional classroom instruction.",
+      "collocation": "in contrast; contrast A with B",
+      "usage_note_tw": "閱讀推論與寫作連接詞相關。"
+    },
+    {
+      "id": 8,
+      "word": "evidence",
+      "type": "n.",
+      "phonetic_us": "/ˈevɪdəns/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "證據",
+      "example": "Strong answers include specific evidence from the passage.",
+      "collocation": "supporting evidence; clear evidence",
+      "usage_note_tw": "學術寫作核心詞。"
+    },
+    {
+      "id": 9,
+      "word": "perspective",
+      "type": "n.",
+      "phonetic_us": "/pərˈspektɪv/",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "觀點",
+      "example": "The discussion asks you to respond from your own perspective.",
+      "collocation": "different perspective; from my perspective",
+      "usage_note_tw": "寫作與口說表達觀點必備。"
+    },
+    {
+      "id": 10,
+      "word": "relevant",
+      "type": "adj.",
+      "phonetic_us": "/ˈreləvənt/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "相關的",
+      "example": "Use examples that are relevant to the question.",
+      "collocation": "relevant experience; relevant information",
+      "usage_note_tw": "面試與學術討論常用。"
+    },
+    {
+      "id": 11,
+      "word": "maintain",
+      "type": "v.",
+      "phonetic_us": "/meɪnˈteɪn/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "維持",
+      "example": "It is easier to maintain habits when they are short and specific.",
+      "collocation": "maintain focus; maintain a standard",
+      "usage_note_tw": "與 sustain 類似，更常用。"
+    },
+    {
+      "id": 12,
+      "word": "enhance",
+      "type": "v.",
+      "phonetic_us": "/ɪnˈhæns/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "提升",
+      "example": "Peer discussion can enhance your understanding of a topic.",
+      "collocation": "enhance skills; enhance performance",
+      "usage_note_tw": "商務與學術正式用語。"
+    },
+    {
+      "id": 13,
+      "word": "crucial",
+      "type": "adj.",
+      "phonetic_us": "/ˈkruːʃəl/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "關鍵的",
+      "example": "Active recall is crucial for long-term vocabulary retention.",
+      "collocation": "crucial factor; play a crucial role",
+      "usage_note_tw": "強調重要性，比 important 正式。"
+    },
+    {
+      "id": 14,
+      "word": "distinction",
+      "type": "n.",
+      "phonetic_us": "/dɪˈstɪŋkʃən/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "區別",
+      "example": "Understanding the distinction between main idea and detail prevents errors.",
+      "collocation": "clear distinction; make a distinction",
+      "usage_note_tw": "學術比較常用。"
+    },
+    {
+      "id": 15,
+      "word": "encounter",
+      "type": "v.",
+      "phonetic_us": "/ɪnˈkaʊntər/",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "遇到",
+      "example": "Test takers often encounter unfamiliar words in academic passages.",
+      "collocation": "encounter difficulties; frequently encounter",
+      "usage_note_tw": "描述經驗與挑戰。"
+    },
+    {
+      "id": 16,
+      "word": "approach",
+      "type": "n./v.",
+      "phonetic_us": "/əˈproʊtʃ/",
+      "category": "TOEFL",
+      "status": "review",
+      "definition_tw": "方法；處理；接近",
+      "example": "A structured approach can help students improve their English more efficiently.",
+      "collocation": "a practical approach; take an approach",
+      "usage_note_tw": "常用於說明解決問題或學習的方法。"
+    },
+    {
+      "id": 17,
+      "word": "fluency",
+      "type": "n.",
+      "phonetic_us": "/ˈfluːənsi/",
+      "category": "TOEFL",
+      "status": "review",
+      "definition_tw": "流暢度；流利",
+      "example": "Daily speaking practice can gradually build fluency.",
+      "collocation": "build fluency; improve fluency",
+      "usage_note_tw": "口說備考核心詞。"
+    },
+    {
+      "id": 18,
+      "word": "feedback",
+      "type": "n.",
+      "phonetic_us": "/ˈfiːdbæk/",
+      "category": "Business",
+      "status": "review",
+      "definition_tw": "回饋；意見",
+      "example": "Receiving feedback from a teacher helps learners correct mistakes quickly.",
+      "collocation": "receive feedback; constructive feedback",
+      "usage_note_tw": "職場與學習情境皆高頻。"
+    },
+    {
+      "id": 19,
+      "word": "schedule",
+      "type": "n./v.",
+      "phonetic_us": "/ˈskedʒuːl/",
+      "category": "Daily",
+      "status": "review",
+      "definition_tw": "行程；安排",
+      "example": "I schedule twenty minutes of English practice every morning.",
+      "collocation": "busy schedule; schedule a meeting",
+      "usage_note_tw": "日常與商務皆極高頻。"
+    },
+    {
+      "id": 20,
+      "word": "practice",
+      "type": "n./v.",
+      "phonetic_us": "/ˈpræktɪs/",
+      "category": "IELTS",
+      "status": "review",
+      "definition_tw": "練習",
+      "example": "Regular practice matters more than perfect conditions.",
+      "collocation": "daily practice; speaking practice",
+      "usage_note_tw": "各項技能訓練的核心詞。"
+    }
+  ],
+  "grammar_focus": {
+    "title": "Using 'Instead of V-ing...' to Compare Choices",
+    "function": "用於比較兩種學習或工作選擇，適合 IELTS Part 3 與 TOEFL opinion 題。",
+    "explanation_tw": "Instead of V-ing... 可以把不採用的方法放在前面，再說出你選擇的做法。這能讓回答更有比較感。",
+    "pattern": "Instead of V-ing, S + V.",
+    "example_basic": "Instead of studying late at night, I review vocabulary in the morning.",
+    "example_advanced": "Instead of waiting for a long free evening, I maintain a short routine that helps me retain information more reliably."
+  },
+  "reading": {
+    "title": "Making a Routine That Actually Works",
+    "text": "A routine is useful only when it matches a learner's real schedule. Many students create ambitious plans, but they do not retain much information because the plan is too difficult to maintain. A better strategy is to prioritize two or three small actions that can be repeated every day. For instance, a learner can summarize one short passage, contrast two examples, and record a thirty-second answer. This routine gives clear evidence of progress and helps the learner notice the distinction between passive review and active practice. When learners encounter a busy week, they should not abandon the routine completely. Instead, they can reduce the task and still maintain contact with English. This approach is relevant for test preparation because listening, reading, and speaking improve through repeated exposure. Over time, the habit can enhance confidence and make the learner feel prepared for more challenging academic tasks.",
+    "embedded_words": [
+      "routine",
+      "retain",
+      "strategy",
+      "prioritize",
+      "summarize",
+      "contrast",
+      "evidence",
+      "progress",
+      "distinction",
+      "encounter",
+      "maintain",
+      "relevant",
+      "enhance",
+      "confident"
+    ],
+    "translation_tw": "例行練習只有在符合學習者真實行程時才有用。許多學生會制定很有企圖心的計畫，但因為計畫太難維持，所以記住的資訊不多。更好的策略是優先處理兩到三個每天能重複的小動作。例如，學習者可以總結一篇短文、對比兩個例子，並錄一段三十秒回答。這種例行練習能提供清楚的進步證據，也能幫助學習者分辨被動複習與主動練習之間的差異。遇到忙碌的一週時，學習者不應完全放棄例行練習，而是可以縮小任務，仍然保持與英文的接觸。這個方法與考試準備很相關，因為聽力、閱讀和口說都會透過反覆接觸而進步。長期下來，這個習慣能提升自信，讓學習者更準備好面對有挑戰性的學術任務。"
+  },
+  "listening_speaking": [
+    {
+      "id": 1,
+      "sentence": "A routine is useful only when it matches a learner's real schedule.",
+      "pronunciation_tips_tw": "routine 的重音在後，matches a 可連音，real schedule 要念清楚避免吞音。",
+      "shadowing_steps_tw": "先標出 only when 的條件語氣，再跟讀整句，最後練一次自然速度。",
+      "focus": "stress"
+    },
+    {
+      "id": 2,
+      "sentence": "Instead of waiting for a long free evening, I maintain a short routine.",
+      "pronunciation_tips_tw": "Instead of 可弱讀，waiting for 連音，maintain 要重音在第二音節。",
+      "shadowing_steps_tw": "把句子分成 Instead of... / I maintain... 兩段，練比較句的停頓。",
+      "focus": "reduction"
+    },
+    {
+      "id": 3,
+      "sentence": "This habit can enhance confidence and prepare learners for challenging tasks.",
+      "pronunciation_tips_tw": "enhance confidence 兩個重音要清楚，prepare learners for 可自然連讀。",
+      "shadowing_steps_tw": "先慢速跟讀，再把 enhance confidence 當成重點片語重複三次。",
+      "focus": "linking"
+    }
+  ],
+  "toefl_skill_drill": {
+    "skill_type": "listening_note_taking",
+    "instruction_tw": "聽或讀段落時，用三欄筆記：Problem / Method / Result。練習抓原因與結果，不要逐字抄。",
+    "prompt": "What is one routine that can help students improve English when they are busy?",
+    "response_framework": "The routine is... Instead of..., students can... This is useful because...",
+    "sample_answer": "One useful routine is a short daily review. Instead of waiting for a long free evening, students can summarize one paragraph, review five words, and record a short answer. This is useful because it keeps English active in their schedule and helps them retain information even during a busy week.",
+    "useful_phrases": [
+      "Instead of...",
+      "This is useful because...",
+      "retain information",
+      "active practice",
+      "during a busy week"
+    ]
+  },
+  "daily_quiz": [
+    {
+      "question_id": 1,
+      "question": "Which word means '保留；記住'?",
+      "options": [
+        "A. retain",
+        "B. contrast",
+        "C. encounter",
+        "D. enhance"
+      ],
+      "answer": "A",
+      "explanation_tw": "retain 可表示保留資訊或記住內容，是學習主題常見字。"
+    },
+    {
+      "question_id": 2,
+      "question": "What does the reading recommend during a busy week?",
+      "options": [
+        "A. Stop learning completely.",
+        "B. Reduce the task but keep contact with English.",
+        "C. Study only grammar rules.",
+        "D. Avoid active practice."
+      ],
+      "answer": "B",
+      "explanation_tw": "文章建議縮小任務，但不要完全中斷例行練習。"
+    },
+    {
+      "question_id": 3,
+      "question": "Which sentence uses 'Instead of V-ing' correctly?",
+      "options": [
+        "A. Instead of wait, I study.",
+        "B. Instead of waiting, I review my notes.",
+        "C. Instead waiting, I review.",
+        "D. Instead of I waited, review."
+      ],
+      "answer": "B",
+      "explanation_tw": "Instead of 後面接 V-ing，B 的 waiting 用法正確。"
+    }
+  ],
+  "gmail_email": {
+    "recipient": "learner@example.com",
+    "subject": "Day 2 TOEFL/IELTS Daily Lesson - Daily Routines and Time Management",
+    "html_body": "<h1>Day 2: Daily Routines and Time Management</h1><p>Review the website summary, vocabulary cards, reading, speaking drill, and quiz.</p>"
+  },
+  "history_update": {
+    "new_words_today": [
+      "routine",
+      "retain",
+      "strategy",
+      "confident",
+      "accurate",
+      "summarize",
+      "contrast",
+      "evidence",
+      "perspective",
+      "relevant",
+      "maintain",
+      "enhance",
+      "crucial",
+      "distinction",
+      "encounter"
+    ],
+    "review_words_today": [
+      "approach",
+      "fluency",
+      "feedback",
+      "schedule",
+      "practice"
+    ],
+    "grammar_today": "Using 'Instead of V-ing...' to Compare Choices",
+    "theme_today": "Daily Routines and Time Management",
+    "skill_type_today": "listening_note_taking"
+  }
+}
