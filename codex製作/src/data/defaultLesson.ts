@@ -1,351 +1,398 @@
 import type { LessonData } from "../types";
 
 export const defaultLesson: LessonData = {
-  metadata: {
-    day: 1,
-    date_label: "6/7",
-    phase: "Foundation",
-    level: "B1+",
-    estimated_minutes: 18,
-    exam_focus: ["TOEFL", "IELTS", "Daily Speaking"],
-    theme: "Workplace Introductions and Study Planning",
-    weekday_plan: "Speaking - independent speaking",
-  },
-  vocabulary: [
-    {
-      id: 1,
-      word: "approach",
-      type: "n./v.",
-      phonetic_us: "/əˈproʊtʃ/",
-      category: "TOEFL",
-      status: "new",
-      definition_tw: "方法；處理；接近",
-      example:
-        "A structured approach can help students improve English more efficiently.",
-      collocation: "a practical approach; a structured approach",
-      usage_note_tw: "常用於說明解決問題、學習或研究的方法。",
-    },
-    {
-      id: 2,
-      word: "limited",
-      type: "adj.",
-      phonetic_us: "/ˈlɪmɪtɪd/",
-      category: "Daily",
-      status: "new",
-      definition_tw: "有限的",
-      example: "Many adults have limited time for language study.",
-      collocation: "limited time; limited resources",
-      usage_note_tw: "可描述時間、金錢、資訊或資源不足。",
-    },
-    {
-      id: 3,
-      word: "efficiently",
-      type: "adv.",
-      phonetic_us: "/ɪˈfɪʃəntli/",
-      category: "Business",
-      status: "new",
-      definition_tw: "有效率地",
-      example: "The team finished the project efficiently.",
-      collocation: "work efficiently; learn efficiently",
-      usage_note_tw: "強調用較少時間或資源達成好結果。",
-    },
-    {
-      id: 4,
-      word: "priority",
-      type: "n.",
-      phonetic_us: "/praɪˈɔːrəti/",
-      category: "Business",
-      status: "new",
-      definition_tw: "優先事項",
-      example: "Vocabulary review should be a daily priority.",
-      collocation: "top priority; set priorities",
-      usage_note_tw: "商務與學習規劃中非常常見。",
-    },
-    {
-      id: 5,
-      word: "consistency",
-      type: "n.",
-      phonetic_us: "/kənˈsɪstənsi/",
-      category: "Academic",
-      status: "new",
-      definition_tw: "一致性；持續性",
-      example: "Consistency is more important than studying for many hours once a week.",
-      collocation: "maintain consistency; improve consistency",
-      usage_note_tw: "可用於學習習慣、品質或表現穩定度。",
-    },
-    {
-      id: 6,
-      word: "noticeable",
-      type: "adj.",
-      phonetic_us: "/ˈnoʊtɪsəbəl/",
-      category: "IELTS",
-      status: "new",
-      definition_tw: "明顯的；可察覺的",
-      example: "Daily practice can lead to noticeable progress.",
-      collocation: "noticeable progress; noticeable difference",
-      usage_note_tw: "常用來描述可以看見或感受到的變化。",
-    },
-    {
-      id: 7,
-      word: "shadowing",
-      type: "n.",
-      phonetic_us: "/ˈʃædoʊɪŋ/",
-      category: "Daily",
-      status: "new",
-      definition_tw: "跟讀練習",
-      example: "Shadowing helps learners notice linking and rhythm.",
-      collocation: "shadowing practice; do shadowing",
-      usage_note_tw: "英文學習中指聽到句子後立即模仿朗讀。",
-    },
-    {
-      id: 8,
-      word: "fluency",
-      type: "n.",
-      phonetic_us: "/ˈfluːənsi/",
-      category: "TOEFL",
-      status: "new",
-      definition_tw: "流暢度",
-      example: "Recording short answers can improve speaking fluency.",
-      collocation: "speaking fluency; develop fluency",
-      usage_note_tw: "口說評分常看流暢度與表達自然度。",
-    },
-    {
-      id: 9,
-      word: "immediate",
-      type: "adj.",
-      phonetic_us: "/ɪˈmiːdiət/",
-      category: "Business",
-      status: "new",
-      definition_tw: "立即的；即時的",
-      example: "Immediate feedback helps learners correct mistakes quickly.",
-      collocation: "immediate feedback; immediate response",
-      usage_note_tw: "可用於學習、工作溝通與客服情境。",
-    },
-    {
-      id: 10,
-      word: "feedback",
-      type: "n.",
-      phonetic_us: "/ˈfiːdbæk/",
-      category: "Business",
-      status: "new",
-      definition_tw: "回饋；意見",
-      example: "A teacher can give useful feedback on pronunciation.",
-      collocation: "give feedback; receive feedback",
-      usage_note_tw: "不可數名詞，通常不說 a feedback。",
-    },
-    {
-      id: 11,
-      word: "strategy",
-      type: "n.",
-      phonetic_us: "/ˈstrætədʒi/",
-      category: "TOEFL",
-      status: "new",
-      definition_tw: "策略",
-      example: "A reading strategy can help you find the main idea faster.",
-      collocation: "learning strategy; test strategy",
-      usage_note_tw: "比 method 更偏向有目的、有計畫的做法。",
-    },
-    {
-      id: 12,
-      word: "summarize",
-      type: "v.",
-      phonetic_us: "/ˈsʌməraɪz/",
-      category: "TOEFL",
-      status: "new",
-      definition_tw: "總結；概述",
-      example: "Try to summarize the passage in one sentence.",
-      collocation: "summarize a passage; summarize an idea",
-      usage_note_tw: "TOEFL 閱讀與整合口說常需要快速摘要。",
-    },
-    {
-      id: 13,
-      word: "clarify",
-      type: "v.",
-      phonetic_us: "/ˈklærəfaɪ/",
-      category: "Business",
-      status: "new",
-      definition_tw: "釐清；說明",
-      example: "Could you clarify the main deadline for this project?",
-      collocation: "clarify a point; clarify a question",
-      usage_note_tw: "商務社交中比 What do you mean? 更禮貌自然。",
-    },
-    {
-      id: 14,
-      word: "flexible",
-      type: "adj.",
-      phonetic_us: "/ˈfleksəbəl/",
-      category: "Daily",
-      status: "review",
-      definition_tw: "彈性的",
-      example: "Online lessons are flexible for busy learners.",
-      collocation: "flexible schedule; flexible plan",
-      usage_note_tw: "可描述時間、計畫、工作方式有彈性。",
-    },
-    {
-      id: 15,
-      word: "prepare",
-      type: "v.",
-      phonetic_us: "/prɪˈper/",
-      category: "Daily",
-      status: "review",
-      definition_tw: "準備",
-      example: "She prepares for the speaking test every morning.",
-      collocation: "prepare for an exam; prepare a response",
-      usage_note_tw: "prepare for 後面常接考試、會議或活動。",
-    },
-    {
-      id: 16,
-      word: "result",
-      type: "n./v.",
-      phonetic_us: "/rɪˈzʌlt/",
-      category: "TOEFL",
-      status: "review",
-      definition_tw: "結果；導致",
-      example: "Small habits can result in long-term improvement.",
-      collocation: "clear result; result in improvement",
-      usage_note_tw: "result in 表示『導致』，result from 表示『起因於』。",
-    },
-  ],
-  grammar_focus: {
-    title: "Using 'One reason is that...' to Extend an Answer",
-    function: "用來延展 TOEFL independent speaking 或 IELTS Speaking 的理由。",
-    explanation_tw:
-      "當你表達意見後，可以用 One reason is that... 加上具體原因，避免回答太短。",
-    pattern: "In my opinion, S + V. One reason is that S + V.",
-    example_basic:
-      "In my opinion, online learning is useful. One reason is that it is flexible.",
-    example_advanced:
-      "In my opinion, online learning is highly practical. One reason is that it allows busy adults to review lessons at their own pace.",
-  },
-  reading: {
-    title: "A Practical Approach to English Learning",
-    text:
-      "Many adult English learners want to prepare for TOEFL or IELTS, but their study time is often limited. A practical approach is to set one clear priority each day instead of trying to master everything at once. For example, a learner can read a short passage, summarize the main idea, and then do shadowing with three useful sentences. This routine builds vocabulary, listening speed, and speaking fluency at the same time. It also gives the learner immediate feedback because difficult words and unclear sounds become noticeable quickly. After reading, the learner should write two notes: the main idea and one useful phrase. These notes make review easier the next morning and keep the routine realistic for busy weeks. The strategy does not require a perfect schedule, but it does require consistency. If learners spend fifteen focused minutes every day, they can develop stronger habits and feel more confident in academic and workplace conversations.",
-    embedded_words: [
-      "prepare",
-      "limited",
-      "approach",
-      "priority",
-      "summarize",
-      "shadowing",
-      "fluency",
-      "immediate",
-      "noticeable",
-      "strategy",
-      "consistency",
+  "metadata": {
+    "day": 1,
+    "date_label": "6/7",
+    "phase": "Foundation",
+    "level": "B1+",
+    "estimated_minutes": 24,
+    "exam_focus": [
+      "TOEFL",
+      "IELTS",
+      "Daily Speaking"
     ],
-    translation_tw:
-      "許多成人英文學習者想準備 TOEFL 或 IELTS，但學習時間通常有限。實用的方法是每天設定一個明確優先事項，而不是一次想精通所有內容。例如，學習者可以閱讀一篇短文、總結主旨，接著用三個實用句做跟讀。這個流程同時建立字彙、聽力速度與口說流暢度。它也能提供即時回饋，因為困難單字與不清楚的聲音很快就會變得明顯。閱讀後，學習者應該寫下兩個筆記：主旨與一個實用片語。這些筆記會讓隔天複習更容易，也讓忙碌週次中的流程保持實際可行。這個策略不需要完美時間表，但需要持續性。如果學習者每天花十五分鐘專注練習，就能建立更強的習慣，並在學術與職場對話中更有自信。",
+    "theme": "Workplace Introductions and Study Planning",
+    "weekday_plan": "Speaking - independent speaking"
   },
-  listening_speaking: [
+  "vocabulary": [
     {
-      id: 1,
-      sentence:
-        "Many adult English learners want to prepare for TOEFL or IELTS, but their study time is often limited.",
-      pronunciation_tips_tw:
-        "prepare for 可自然連成 /prɪˈper fər/；but their 中 t 可輕放，不要過度用力。",
-      shadowing_steps_tw: "先慢速讀一次，再模仿語調，最後用自然速度完整朗讀。",
-      focus: "linking",
+      "id": 1,
+      "word": "approach",
+      "type": "n./v.",
+      "phonetic_us": "/əˈproʊtʃ/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "方法；處理；接近",
+      "example": "A structured approach can help students improve their English more efficiently.",
+      "collocation": "a practical approach; take an approach",
+      "usage_note_tw": "常用於說明解決問題或學習的方法。"
     },
     {
-      id: 2,
-      sentence:
-        "A practical approach is to set one clear priority each day instead of trying to master everything at once.",
-      pronunciation_tips_tw:
-        "practical 的重音在第一音節；instead of 常弱化成 /ɪnˈsted əv/。",
-      shadowing_steps_tw: "先切成三段跟讀，再合併成一句，注意 priority 的重音。",
-      focus: "stress",
+      "id": 2,
+      "word": "consistent",
+      "type": "adj.",
+      "phonetic_us": "/kənˈsɪstənt/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "持續的；一致的",
+      "example": "Consistent practice is more effective than occasional long study sessions.",
+      "collocation": "consistent effort; consistent results",
+      "usage_note_tw": "強調長期穩定，而非偶爾衝刺。"
     },
     {
-      id: 3,
-      sentence:
-        "If learners spend fifteen focused minutes every day, they can develop stronger habits and feel more confident.",
-      pronunciation_tips_tw:
-        "fifteen focused minutes 要清楚保留重音；and feel 可連成 /ən fiːl/。",
-      shadowing_steps_tw: "先聽自己的停頓，再把 if 子句與主要子句分開練習。",
-      focus: "intonation",
+      "id": 3,
+      "word": "fluency",
+      "type": "n.",
+      "phonetic_us": "/ˈfluːənsi/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "流暢度；流利",
+      "example": "Daily speaking practice can gradually build fluency.",
+      "collocation": "build fluency; improve fluency",
+      "usage_note_tw": "口說備考核心詞。"
     },
+    {
+      "id": 4,
+      "word": "feedback",
+      "type": "n.",
+      "phonetic_us": "/ˈfiːdbæk/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "回饋；意見",
+      "example": "Receiving feedback from a teacher helps learners correct mistakes quickly.",
+      "collocation": "receive feedback; constructive feedback",
+      "usage_note_tw": "職場與學習情境皆高頻。"
+    },
+    {
+      "id": 5,
+      "word": "efficient",
+      "type": "adj.",
+      "phonetic_us": "/ɪˈfɪʃənt/",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "有效率的",
+      "example": "An efficient study plan saves time without reducing quality.",
+      "collocation": "efficient method; time-efficient",
+      "usage_note_tw": "可形容人、方法或系統。"
+    },
+    {
+      "id": 6,
+      "word": "limited",
+      "type": "adj.",
+      "phonetic_us": "/ˈlɪmɪtɪd/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "有限的",
+      "example": "Many adult learners have limited time for daily practice.",
+      "collocation": "limited time; limited resources",
+      "usage_note_tw": "學術閱讀常見。"
+    },
+    {
+      "id": 7,
+      "word": "pronunciation",
+      "type": "n.",
+      "phonetic_us": "/prəˌnʌnsiˈeɪʃən/",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "發音",
+      "example": "Shadowing exercises can improve pronunciation and listening speed.",
+      "collocation": "clear pronunciation; improve pronunciation",
+      "usage_note_tw": "口說評分相關詞彙。"
+    },
+    {
+      "id": 8,
+      "word": "shadowing",
+      "type": "n.",
+      "phonetic_us": "/ˈʃædoʊɪŋ/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "跟讀練習",
+      "example": "Shadowing spoken sentences helps learners notice linking patterns.",
+      "collocation": "shadowing practice; sentence shadowing",
+      "usage_note_tw": "語言學習專用術語。"
+    },
+    {
+      "id": 9,
+      "word": "introduce",
+      "type": "v.",
+      "phonetic_us": "/ˌɪntrəˈduːs/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "介紹；引進",
+      "example": "Let me introduce myself and explain my study goals.",
+      "collocation": "introduce yourself; introduce a topic",
+      "usage_note_tw": "職場自我介紹必備。"
+    },
+    {
+      "id": 10,
+      "word": "schedule",
+      "type": "n./v.",
+      "phonetic_us": "/ˈskedʒuːl/",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "行程；安排",
+      "example": "I schedule twenty minutes of English practice every morning.",
+      "collocation": "busy schedule; schedule a meeting",
+      "usage_note_tw": "日常與商務皆極高頻。"
+    },
+    {
+      "id": 11,
+      "word": "progress",
+      "type": "n.",
+      "phonetic_us": "/ˈprɑːɡres/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "進步；進展",
+      "example": "Small daily actions can lead to noticeable progress over time.",
+      "collocation": "make progress; track progress",
+      "usage_note_tw": "學習與工作場景通用。"
+    },
+    {
+      "id": 12,
+      "word": "flexible",
+      "type": "adj.",
+      "phonetic_us": "/ˈfleksəbl/",
+      "category": "Business",
+      "status": "new",
+      "definition_tw": "有彈性的；靈活的",
+      "example": "Online learning is flexible enough for busy working adults.",
+      "collocation": "flexible schedule; flexible approach",
+      "usage_note_tw": "描述時間或方法的彈性。"
+    },
+    {
+      "id": 13,
+      "word": "review",
+      "type": "v./n.",
+      "phonetic_us": "/rɪˈvjuː/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "複習；檢視",
+      "example": "I review new vocabulary every evening before bed.",
+      "collocation": "review notes; weekly review",
+      "usage_note_tw": "學習循環中的複習動作。"
+    },
+    {
+      "id": 14,
+      "word": "goal",
+      "type": "n.",
+      "phonetic_us": "/ɡoʊl/",
+      "category": "Daily",
+      "status": "new",
+      "definition_tw": "目標",
+      "example": "My goal is to reach TOEFL 80 within sixty days.",
+      "collocation": "set a goal; achieve a goal",
+      "usage_note_tw": "日常與備考規劃皆常用。"
+    },
+    {
+      "id": 15,
+      "word": "practice",
+      "type": "n./v.",
+      "phonetic_us": "/ˈpræktɪs/",
+      "category": "IELTS",
+      "status": "new",
+      "definition_tw": "練習",
+      "example": "Regular practice matters more than perfect conditions.",
+      "collocation": "daily practice; speaking practice",
+      "usage_note_tw": "各項技能訓練的核心詞。"
+    },
+    {
+      "id": 16,
+      "word": "analyze",
+      "type": "v.",
+      "phonetic_us": "/ˈænəlaɪz/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "分析",
+      "example": "Students must analyze the main argument before writing a response.",
+      "collocation": "analyze data; analyze a passage",
+      "usage_note_tw": "學術寫作與閱讀高頻動詞。"
+    },
+    {
+      "id": 17,
+      "word": "concept",
+      "type": "n.",
+      "phonetic_us": "/ˈkɑːnsept/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "概念",
+      "example": "Understanding the concept of main idea helps with TOEFL reading.",
+      "collocation": "key concept; grasp a concept",
+      "usage_note_tw": "學術討論基礎名詞。"
+    },
+    {
+      "id": 18,
+      "word": "context",
+      "type": "n.",
+      "phonetic_us": "/ˈkɑːntekst/",
+      "category": "TOEFL",
+      "status": "new",
+      "definition_tw": "上下文；背景",
+      "example": "You can often guess vocabulary meaning from context.",
+      "collocation": "in context; cultural context",
+      "usage_note_tw": "閱讀推論必備詞。"
+    },
+    {
+      "id": 19,
+      "word": "demonstrate",
+      "type": "v.",
+      "phonetic_us": "/ˈdemənstreɪt/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "證明；示範",
+      "example": "The passage demonstrates how small habits create long-term results.",
+      "collocation": "demonstrate ability; demonstrate understanding",
+      "usage_note_tw": "學術寫作常用。"
+    },
+    {
+      "id": 20,
+      "word": "establish",
+      "type": "v.",
+      "phonetic_us": "/ɪˈstæblɪʃ/",
+      "category": "Academic",
+      "status": "new",
+      "definition_tw": "建立；確立",
+      "example": "Researchers establish a clear link between practice and performance.",
+      "collocation": "establish a routine; establish credibility",
+      "usage_note_tw": "正式書面語常見。"
+    }
   ],
-  toefl_skill_drill: {
-    skill_type: "independent_speaking",
-    instruction_tw:
-      "請用 45 秒回答問題，練習 opinion + reason + example + result 的結構。",
-    prompt:
-      "Do you prefer studying English alone or with a teacher? Why?",
-    response_framework:
-      "I prefer ___. One reason is that ___. For example, ___. As a result, ___.",
-    sample_answer:
-      "I prefer studying English with a teacher because I can receive immediate feedback. For example, when I make grammar or pronunciation mistakes, a teacher can correct me right away. As a result, I can improve faster and avoid repeating the same errors.",
-    useful_phrases: [
-      "receive immediate feedback",
-      "correct mistakes",
-      "improve faster",
-      "avoid repeating errors",
-    ],
+  "grammar_focus": {
+    "title": "Using 'One reason is that...' to Extend an Answer",
+    "function": "用於 TOEFL independent speaking 與 IELTS Part 2/3，讓回答從一句意見延伸成有理由的段落。",
+    "explanation_tw": "先說出立場，再用 One reason is that... 補上原因。這個句型可以避免只回答 yes/no，也能讓口說聽起來更有結構。",
+    "pattern": "In my opinion, S + V. One reason is that S + V.",
+    "example_basic": "In my opinion, online learning is useful. One reason is that it is flexible.",
+    "example_advanced": "In my opinion, a short daily routine is more realistic for busy adults. One reason is that it creates consistent progress without requiring a perfect schedule."
   },
-  daily_quiz: [
-    {
-      question_id: 1,
-      question:
-        "Which word is closest in meaning to 'approach' in the reading?",
-      options: ["A. Problem", "B. Method", "C. Result", "D. Mistake"],
-      answer: "B",
-      explanation_tw: "文中的 a practical approach 指的是『實用的方法』，最接近 method。",
-    },
-    {
-      question_id: 2,
-      question:
-        "What is the main idea of the reading passage?",
-      options: [
-        "A. Adults should study only grammar before taking TOEFL.",
-        "B. A short daily routine can improve several English skills.",
-        "C. IELTS is easier than TOEFL for most adult learners.",
-        "D. Learners need a perfect schedule to improve quickly.",
-      ],
-      answer: "B",
-      explanation_tw:
-        "文章強調每天短時間但持續的流程，可以同時提升字彙、聽力、口說與信心。",
-    },
-    {
-      question_id: 3,
-      question:
-        "Which sentence best uses the pattern 'One reason is that...'?",
-      options: [
-        "A. One reason is that flexible.",
-        "B. I prefer online lessons. One reason is that they fit my schedule.",
-        "C. I reason online lessons because flexible.",
-        "D. One reason that I prefer is schedule.",
-      ],
-      answer: "B",
-      explanation_tw:
-        "B 有完整主詞與動詞，且自然延伸前一句的意見。",
-    },
-  ],
-  gmail_email: {
-    recipient: "gish1040403@gmail.com",
-    subject: "Day 1 英文學習｜Workplace Introductions and Study Planning",
-    html_body:
-      "<h1>Day 1 英文學習</h1><p><strong>今日主題：</strong>Workplace Introductions and Study Planning</p><p><strong>預估時間：</strong>18 分鐘</p><hr><h2>今日單字</h2><table><tr><th>Word</th><th>Meaning</th><th>Example</th></tr><tr><td><strong>approach</strong></td><td>方法；處理</td><td>A structured approach can help students improve English more efficiently.</td></tr><tr><td><strong>limited</strong></td><td>有限的</td><td>Many adults have limited time for language study.</td></tr><tr><td><strong>consistency</strong></td><td>持續性</td><td>Consistency is more important than studying for many hours once a week.</td></tr></table><h2>Reading</h2><p>Many adult English learners want to prepare for TOEFL or IELTS, but their study time is often limited. A practical approach is to set one clear priority each day instead of trying to master everything at once.</p><h2>Shadowing</h2><ol><li>Many adult English learners want to prepare for TOEFL or IELTS, but their study time is often limited.</li><li>A practical approach is to set one clear priority each day instead of trying to master everything at once.</li><li>If learners spend fifteen focused minutes every day, they can develop stronger habits and feel more confident.</li></ol><h2>TOEFL Skill Drill</h2><p><strong>Prompt:</strong> Do you prefer studying English alone or with a teacher? Why?</p><p><strong>Framework:</strong> I prefer ___. One reason is that ___. For example, ___. As a result, ___.</p><h2>Quiz Answers</h2><ol><li>B</li><li>B</li><li>B</li></ol>",
-  },
-  history_update: {
-    new_words_today: [
+  "reading": {
+    "title": "A Practical Approach to English Learning",
+    "text": "Many adult English learners want to prepare for TOEFL or IELTS, but their study time is often limited. A practical approach is to set one clear goal each day instead of trying to master everything at once. For example, a learner can introduce a topic, review five useful words, and practice shadowing with three short sentences. This method builds pronunciation, fluency, and confidence at the same time. It also gives the learner immediate feedback because unclear sounds and weak examples become noticeable quickly. After each lesson, the learner should analyze one sentence and write a short note about the main concept. These notes help the learner understand context and demonstrate progress over several weeks. The process does not have to be perfect, but it should be consistent. If learners establish a flexible schedule and follow it efficiently, they can make steady progress in academic and workplace communication.",
+    "embedded_words": [
       "approach",
       "limited",
-      "efficiently",
-      "priority",
-      "consistency",
-      "noticeable",
+      "goal",
+      "introduce",
+      "review",
+      "practice",
       "shadowing",
+      "pronunciation",
       "fluency",
-      "immediate",
       "feedback",
-      "strategy",
-      "summarize",
-      "clarify",
+      "analyze",
+      "concept",
+      "context",
+      "demonstrate",
+      "establish"
     ],
-    review_words_today: ["flexible", "prepare", "result"],
-    grammar_today: "Using 'One reason is that...' to Extend an Answer",
-    theme_today: "Workplace Introductions and Study Planning",
-    skill_type_today: "independent_speaking",
+    "translation_tw": "許多成人英文學習者想準備 TOEFL 或 IELTS，但讀書時間通常有限。實用的方法是每天設定一個清楚目標，而不是一次想把所有事情都學會。例如，學習者可以介紹一個主題、複習五個實用單字，並用三個短句做跟讀。這個方法能同時建立發音、流暢度與自信，也能立刻得到回饋，因為不清楚的發音和薄弱的例子很快就會被看見。每次課程後，學習者應分析一個句子，並寫下主要概念的短筆記。這些筆記能幫助理解上下文，也能在幾週後證明自己的進步。整個過程不必完美，但應該持續。如果學習者建立有彈性的時程並有效率地執行，就能在學術與職場溝通中穩定進步。"
   },
+  "listening_speaking": [
+    {
+      "id": 1,
+      "sentence": "A practical approach is to set one clear goal each day instead of trying to master everything at once.",
+      "pronunciation_tips_tw": "注意 practical approach 的重音，instead of 可連成 /ɪnˈsted əv/，不要逐字念得太硬。",
+      "shadowing_steps_tw": "先聽一次抓停頓，再分成 A practical approach / is to set one clear goal / each day 三段跟讀。",
+      "focus": "stress"
+    },
+    {
+      "id": 2,
+      "sentence": "This method builds pronunciation, fluency, and confidence at the same time.",
+      "pronunciation_tips_tw": "pronunciation 與 fluency 是關鍵名詞，念時放慢並加重，and confidence 可自然連讀。",
+      "shadowing_steps_tw": "第二次跟讀時刻意把三個名詞列舉出節奏，最後 at the same time 降調收尾。",
+      "focus": "intonation"
+    },
+    {
+      "id": 3,
+      "sentence": "If learners establish a flexible schedule, they can make steady progress.",
+      "pronunciation_tips_tw": "establish a 會連音，flexible schedule 的 /sk/ 音要清楚，progress 作名詞重音在前。",
+      "shadowing_steps_tw": "先念 if 子句，再接 they can make steady progress，練習條件句的自然停頓。",
+      "focus": "linking"
+    }
+  ],
+  "toefl_skill_drill": {
+    "skill_type": "independent_speaking",
+    "instruction_tw": "用 45-60 秒回答。先給立場，再用 One reason is that... 補理由，最後用一個生活例子收束。",
+    "prompt": "Do you prefer studying English with a fixed schedule or a flexible schedule?",
+    "response_framework": "I prefer a flexible schedule. One reason is that it helps me stay consistent even when I am busy. For example, I can review vocabulary during a short break and practice speaking at night.",
+    "sample_answer": "I prefer studying English with a flexible schedule. One reason is that it is easier to maintain when my work becomes busy. For example, if I cannot study for one full hour, I can still review vocabulary for ten minutes and do shadowing with three sentences. As a result, I do not lose momentum, and my practice becomes more consistent over time.",
+    "useful_phrases": [
+      "One reason is that...",
+      "For example...",
+      "As a result...",
+      "stay consistent",
+      "lose momentum"
+    ]
+  },
+  "daily_quiz": [
+    {
+      "question_id": 1,
+      "question": "Which word best means '持續的；一致的'?",
+      "options": [
+        "A. consistent",
+        "B. limited",
+        "C. flexible",
+        "D. efficient"
+      ],
+      "answer": "A",
+      "explanation_tw": "consistent 表示持續穩定或一致，適合描述學習習慣。"
+    },
+    {
+      "question_id": 2,
+      "question": "In the reading, why is a clear daily goal useful?",
+      "options": [
+        "A. It replaces all grammar study.",
+        "B. It prevents learners from trying to master everything at once.",
+        "C. It removes the need for pronunciation practice.",
+        "D. It makes TOEFL shorter."
+      ],
+      "answer": "B",
+      "explanation_tw": "文章指出每天一個清楚目標能讓學習更實際，不必一次學所有內容。"
+    },
+    {
+      "question_id": 3,
+      "question": "Which sentence correctly uses the grammar pattern?",
+      "options": [
+        "A. One reason is that because I study.",
+        "B. I prefer short lessons. One reason is that they are realistic.",
+        "C. I one reason is study every day.",
+        "D. Flexible because schedule."
+      ],
+      "answer": "B",
+      "explanation_tw": "B 先給立場，再用 One reason is that + 完整子句。"
+    }
+  ],
+  "gmail_email": {
+    "recipient": "learner@example.com",
+    "subject": "Day 1 TOEFL/IELTS Daily Lesson - Workplace Introductions and Study Planning",
+    "html_body": "<h1>Day 1: Workplace Introductions and Study Planning</h1><p>Review the website summary, vocabulary cards, reading, speaking drill, and quiz.</p>"
+  },
+  "history_update": {
+    "new_words_today": [
+      "approach",
+      "consistent",
+      "fluency",
+      "feedback",
+      "efficient",
+      "limited",
+      "pronunciation",
+      "shadowing",
+      "introduce",
+      "schedule",
+      "progress",
+      "flexible",
+      "review",
+      "goal",
+      "practice",
+      "analyze",
+      "concept",
+      "context",
+      "demonstrate",
+      "establish"
+    ],
+    "review_words_today": [],
+    "grammar_today": "Using 'One reason is that...' to Extend an Answer",
+    "theme_today": "Workplace Introductions and Study Planning",
+    "skill_type_today": "independent_speaking"
+  }
 };

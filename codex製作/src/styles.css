@@ -49,7 +49,7 @@ button:disabled {
 
 .app-shell {
   display: grid;
-  grid-template-columns: 292px minmax(0, 1fr);
+  grid-template-columns: clamp(236px, 22vw, 292px) minmax(0, 1fr);
   min-height: 100vh;
 }
 
@@ -127,6 +127,7 @@ button:disabled {
   padding: 0 12px;
   color: rgba(255, 255, 255, 0.78);
   text-align: left;
+  white-space: normal;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 8px;
@@ -201,12 +202,11 @@ button:disabled {
 }
 
 .history-item span {
-  overflow: hidden;
   color: inherit;
   font-size: 0.78rem;
   opacity: 0.82;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .progress-panel {
@@ -260,7 +260,7 @@ button:disabled {
 
 .workspace {
   min-width: 0;
-  padding: 26px clamp(16px, 3vw, 38px) 42px;
+  padding: 26px clamp(14px, 3vw, 38px) 42px;
 }
 
 .topbar {
@@ -274,6 +274,7 @@ button:disabled {
 .topbar h2 {
   max-width: 920px;
   font-size: clamp(1.65rem, 4vw, 3.25rem);
+  overflow-wrap: anywhere;
 }
 
 .topbar-actions {
@@ -377,6 +378,7 @@ button:disabled {
 .panel p {
   color: var(--muted);
   line-height: 1.65;
+  overflow-wrap: anywhere;
 }
 
 .metric {
@@ -503,11 +505,11 @@ button:disabled {
 .vocab-head h3 {
   margin: 8px 0 4px;
   font-family: Georgia, "Noto Serif TC", serif;
-  font-size: 1.55rem;
+  font-size: clamp(1.22rem, 2.2vw, 1.55rem);
+  overflow-wrap: anywhere;
 }
 
 .vocab-head p,
-.usage-note,
 .example,
 .definition {
   margin: 0;
@@ -560,6 +562,27 @@ button:disabled {
 
 .usage-note {
   color: var(--muted);
+}
+
+.usage-note p {
+  margin: 5px 0 0;
+}
+
+.usage-note strong,
+.mini-task strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-size: 0.86rem;
+}
+
+.mini-task {
+  padding: 10px;
+  color: var(--muted);
+  background: #f3f0e7;
+  border: 1px dashed #d5cdb9;
+  border-radius: 8px;
+  line-height: 1.55;
 }
 
 .reading-layout {
@@ -785,6 +808,28 @@ button:disabled {
   line-height: 1.65;
 }
 
+.lesson-meta {
+  margin: 0 0 12px;
+}
+
+.summary-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.summary-stats span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 10px;
+  color: #fffaf1;
+  background: var(--coal);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -814,6 +859,86 @@ button:disabled {
 .summary-card.main-focus,
 .summary-card.reading-brief {
   grid-column: span 2;
+}
+
+.summary-card.vocabulary-detail {
+  grid-column: span 2;
+}
+
+.study-brief {
+  background:
+    linear-gradient(180deg, rgba(52, 124, 161, 0.08), transparent),
+    rgba(255, 253, 247, 0.94);
+}
+
+.example-pair {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.example-pair p {
+  margin: 0;
+  padding: 10px 12px;
+  background: #f3f0e7;
+  border-radius: 8px;
+}
+
+.analysis-list {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.analysis-list.compact {
+  display: grid;
+  gap: 8px;
+  padding-left: 0;
+}
+
+.analysis-list.compact p {
+  margin: 0;
+  padding: 10px 12px;
+  background: #f3f0e7;
+  border-radius: 8px;
+}
+
+.detail-word-grid,
+.reading-helper-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.detail-word,
+.reading-word {
+  display: grid;
+  gap: 4px;
+  padding: 11px;
+  background: #f1eee4;
+  border: 1px solid #e2dcc9;
+  border-radius: 8px;
+}
+
+.detail-word strong,
+.reading-word strong {
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.detail-word span,
+.reading-word span,
+.detail-word small,
+.reading-word small {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.reading-questions li,
+.speaking-steps li {
+  margin-bottom: 8px;
 }
 
 .summary-word-list {
@@ -860,29 +985,17 @@ button:disabled {
 }
 
 @media (max-width: 860px) {
-  .app-shell {
-    grid-template-columns: 1fr;
-  }
-
   .sidebar {
-    position: static;
-    height: auto;
+    padding: 18px;
+    gap: 16px;
   }
 
   .tab-list {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
   }
 
   .history-list {
-    max-height: 180px;
-  }
-
-  .tab-button {
-    grid-template-columns: 20px 1fr;
-  }
-
-  .tab-arrow {
-    display: none;
+    max-height: 170px;
   }
 
   .topbar,
@@ -902,14 +1015,72 @@ button:disabled {
   }
 
   .summary-card.main-focus,
-  .summary-card.reading-brief {
+  .summary-card.reading-brief,
+  .summary-card.vocabulary-detail {
     grid-column: auto;
   }
 }
 
 @media (max-width: 560px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+    min-width: 0;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .brand-block {
+    grid-template-columns: 42px 1fr;
+  }
+
+  .brand-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .tab-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tab-button {
+    grid-template-columns: 20px 1fr;
+    min-height: 42px;
+  }
+
+  .tab-arrow {
+    display: none;
+  }
+
+  .history-panel {
+    padding: 12px;
+  }
+
+  .history-list {
+    display: flex;
+    max-height: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 3px;
+  }
+
+  .history-item {
+    flex: 0 0 148px;
+    min-height: 58px;
+  }
+
+  .progress-panel {
+    display: none;
+  }
+
   .workspace,
   .sidebar {
+    min-width: 0;
+    width: 100%;
     padding: 16px;
   }
 
@@ -925,6 +1096,11 @@ button:disabled {
   .icon-command,
   .primary-action {
     width: 100%;
+  }
+
+  .detail-word-grid,
+  .reading-helper-grid {
+    grid-template-columns: 1fr;
   }
 
   .sentence-card {

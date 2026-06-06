@@ -8,21 +8,21 @@
       "phase": "Foundation",
       "level": "B1+",
       "skill_type": "independent_speaking",
-      "vocabulary_count": 15,
-      "new_count": 12,
-      "review_count": 3
+      "vocabulary_count": 20,
+      "new_count": 20,
+      "review_count": 0
     },
     {
       "day": 2,
       "file": "day_002.json",
-      "date_label": "6/6",
+      "date_label": "6/7",
       "theme": "Daily Routines and Time Management",
       "phase": "Foundation",
       "level": "B1+",
       "skill_type": "listening_note_taking",
-      "vocabulary_count": 15,
-      "new_count": 12,
-      "review_count": 3
+      "vocabulary_count": 20,
+      "new_count": 15,
+      "review_count": 5
     },
     {
       "day": 3,

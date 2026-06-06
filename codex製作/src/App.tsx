@@ -187,6 +187,24 @@ function speak(sentence: string) {
   window.speechSynthesis.speak(utterance);
 }
 
+function readingPreview(text: string, limit = 520) {
+  if (text.length <= limit) return text;
+  return `${text.slice(0, limit).trim()}...`;
+}
+
+function splitIntoSentences(text: string) {
+  return text
+    .split(/(?<=[.!?])\s+/)
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+}
+
+function findVocabularyItem(vocabulary: VocabularyItem[], word: string) {
+  return vocabulary.find(
+    (item) => item.word.toLowerCase() === word.toLowerCase()
+  );
+}
+
 function App() {
   const [lesson, setLesson] = useState<LessonData>(defaultLesson);
   const [historyLessons, setHistoryLessons] = useState<LessonIndexItem[]>([]);
@@ -502,6 +520,7 @@ function SummaryPanel({
     lesson.toefl_skill_drill.skill_type;
   const newWords = lesson.vocabulary.filter((item) => item.status === "new");
   const reviewWords = lesson.vocabulary.filter((item) => item.status === "review");
+  const readingSentences = splitIntoSentences(lesson.reading.text);
   const selectedIndex = historyLessons.findIndex(
     (item) => item.day === lesson.metadata.day
   );
@@ -517,10 +536,15 @@ function SummaryPanel({
         <div>
           <p className="eyebrow">Review Sheet</p>
           <h3>Day {lesson.metadata.day} · {lesson.metadata.theme}</h3>
-          <p>
+          <p className="lesson-meta">
             {lesson.metadata.phase} / {lesson.metadata.level} / {skillName} /{" "}
             {lesson.metadata.estimated_minutes} 分鐘
           </p>
+          <div className="summary-stats" aria-label="今日課程統計">
+            <span>{newWords.length} new</span>
+            <span>{reviewWords.length} review</span>
+            <span>{lesson.reading.embedded_words.length} reading words</span>
+          </div>
         </div>
         <button className="primary-action" type="button" onClick={onComplete}>
           <Check size={18} />
@@ -533,24 +557,57 @@ function SummaryPanel({
           <span>Grammar Pattern</span>
           <h3>{lesson.grammar_focus.title}</h3>
           <p className="big-sentence">{lesson.grammar_focus.pattern}</p>
-          <p>{lesson.grammar_focus.example_advanced}</p>
+          <p>{lesson.grammar_focus.explanation_tw}</p>
+          <div className="example-pair">
+            <p><strong>Basic:</strong> {lesson.grammar_focus.example_basic}</p>
+            <p><strong>Advanced:</strong> {lesson.grammar_focus.example_advanced}</p>
+          </div>
         </article>
 
-        <article className="summary-card">
+        <article className="summary-card study-brief">
+          <span>Today's Goal</span>
+          <h3>今天要帶走的能力</h3>
+          <ul className="analysis-list">
+            <li>用今日句型說出「原因、結果或比較」的完整回答。</li>
+            <li>把新單字放回閱讀段落中理解，不只背中文意思。</li>
+            <li>跟讀 3 句核心句，練重音、連音與自然停頓。</li>
+          </ul>
+        </article>
+
+        <article className="summary-card vocabulary-detail">
           <span>Vocabulary</span>
-          <h3>{lesson.vocabulary.length} words</h3>
-          <div className="summary-word-list">
-            {newWords.slice(0, 12).map((item) => (
-              <span key={item.word}>{item.word}</span>
+          <h3>{lesson.vocabulary.length} words and phrases</h3>
+          <div className="detail-word-grid">
+            {newWords.slice(0, 8).map((item) => (
+              <div className="detail-word" key={item.word}>
+                <strong>{item.word}</strong>
+                <span>{item.definition_tw}</span>
+                <small>{item.collocation}</small>
+              </div>
             ))}
           </div>
-          <p>Review: {reviewWords.map((item) => item.word).join(", ")}</p>
+          <p>Review: {reviewWords.map((item) => item.word).join(", ") || "今日無複習詞"}</p>
         </article>
 
         <article className="summary-card reading-brief">
           <span>Reading Brief</span>
           <h3>{lesson.reading.title}</h3>
-          <p>{lesson.reading.text.slice(0, 430)}...</p>
+          <p>{readingPreview(lesson.reading.text)}</p>
+          <div className="analysis-list compact">
+            {readingSentences.slice(0, 3).map((sentence) => (
+              <p key={sentence}>{sentence}</p>
+            ))}
+          </div>
+        </article>
+
+        <article className="summary-card">
+          <span>Reading Tasks</span>
+          <h3>複習時回答 3 件事</h3>
+          <ol className="summary-list">
+            <li>主旨：這篇文章主要在解釋什麼問題或建議？</li>
+            <li>證據：作者用了哪一句話支持主旨？</li>
+            <li>應用：挑 2 個字彙，改寫成自己的生活例句。</li>
+          </ol>
         </article>
 
         <article className="summary-card">
@@ -569,14 +626,16 @@ function SummaryPanel({
           <h3>3 core sentences</h3>
           <ol className="summary-list">
             {lesson.listening_speaking.map((item) => (
-              <li key={item.id}>{item.sentence}</li>
+              <li key={item.id}>
+                <strong>{item.focus}:</strong> {item.sentence}
+              </li>
             ))}
           </ol>
         </article>
 
         <article className="summary-card">
           <span>Quiz Key</span>
-          <h3>Answers</h3>
+          <h3>Answers and Why</h3>
           <ol className="summary-list">
             {lesson.daily_quiz.map((item) => (
               <li key={item.question_id}>
@@ -764,10 +823,17 @@ function VocabularyPanel({
               <p className="definition">{item.definition_tw}</p>
               <p className="example">{item.example}</p>
               <div className="vocab-meta">
-                <span>{item.category}</span>
-                <span>{item.collocation}</span>
+                <span>分類：{item.category}</span>
+                <span>搭配：{item.collocation}</span>
               </div>
-              <p className="usage-note">{item.usage_note_tw}</p>
+              <div className="usage-note">
+                <strong>備考用法</strong>
+                <p>{item.usage_note_tw}</p>
+              </div>
+              <div className="mini-task">
+                <strong>30 秒任務</strong>
+                <span>用「{item.word}」造一句跟自己學習、工作或旅行有關的句子。</span>
+              </div>
             </article>
           );
         })}
@@ -783,6 +849,11 @@ function ReadingPanel({
   lesson: LessonData;
   onComplete: () => void;
 }) {
+  const embeddedVocabulary = lesson.reading.embedded_words
+    .map((word) => findVocabularyItem(lesson.vocabulary, word))
+    .filter((item): item is VocabularyItem => Boolean(item));
+  const readingSentences = splitIntoSentences(lesson.reading.text);
+
   return (
     <section className="screen-grid reading-layout">
       <div className="panel reading-panel">
@@ -809,14 +880,30 @@ function ReadingPanel({
         <p>{lesson.reading.translation_tw}</p>
       </div>
 
+      <div className="panel">
+        <div className="panel-title">
+          <h3>閱讀拆解</h3>
+          <span>Main idea / Detail / Inference</span>
+        </div>
+        <ol className="summary-list reading-questions">
+          <li>主旨句：{readingSentences[0] || "請先找出文章第一個核心主張。"}</li>
+          <li>細節題：哪一個例子說明作者的建議可行？</li>
+          <li>推論題：作者對這個方法的態度比較接近 practical 還是 doubtful？</li>
+        </ol>
+      </div>
+
       <div className="panel wide">
         <div className="panel-title">
           <h3>字彙定位</h3>
           <span>Embedded Words</span>
         </div>
-        <div className="phrase-cloud">
-          {lesson.reading.embedded_words.map((word) => (
-            <span key={word}>{word}</span>
+        <div className="reading-helper-grid">
+          {embeddedVocabulary.map((item) => (
+            <div className="reading-word" key={item.word}>
+              <strong>{item.word}</strong>
+              <span>{item.definition_tw}</span>
+              <small>{item.example}</small>
+            </div>
           ))}
         </div>
       </div>
@@ -897,6 +984,11 @@ function DrillPanel({
         <p>{lesson.toefl_skill_drill.instruction_tw}</p>
         <p className="prompt-box">{lesson.toefl_skill_drill.prompt}</p>
         <p className="framework">{lesson.toefl_skill_drill.response_framework}</p>
+        <ol className="summary-list speaking-steps">
+          <li>15 秒：決定立場，寫下 1 個主理由。</li>
+          <li>30 秒：用今天的句型補原因、結果或例子。</li>
+          <li>15 秒：收尾時重講立場，不要新增新理由。</li>
+        </ol>
         <div className="phrase-cloud">
           {lesson.toefl_skill_drill.useful_phrases.map((phrase) => (
             <span key={phrase}>{phrase}</span>
@@ -915,7 +1007,7 @@ function DrillPanel({
         <textarea
           value={response}
           onChange={(event) => onResponse(event.target.value)}
-          placeholder="I prefer studying English..."
+          placeholder="State your opinion. One reason is that... For example... As a result..."
           aria-label="輸入口說或寫作回答"
         />
       </div>
